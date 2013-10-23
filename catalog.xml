@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog name="THREDDS Server Default Catalog : You must change this to fit your server!"
+        xmlns="http://www.unidata.ucar.edu/namespaces/thredds/InvCatalog/v1.0"
+        xmlns:xlink="http://www.w3.org/1999/xlink">
+
+  <service name="all" serviceType="Compound" base="">
+    
+    <service name="HTTPServer" serviceType="HTTPServer" base="/thredds/fileServer/"/>
+    <service name="opendap" serviceType="OPENDAP" base="/thredds/dodsC/"/>
+    <service name="ncss" serviceType="NetcdfSubset" base="/thredds/ncss/grid/"/>
+    <service name="cdmremote" serviceType="CdmRemote" base="/thredds/cdmremote/"/>
+    
+    <service name="wcs" serviceType="WCS" base="/thredds/wcs/"/>
+    <service name="wms" serviceType="WMS" base="/thredds/wms/"/>
+    
+    <service name="iso" serviceType="ISO" base="/thredds/iso/"/>
+    <service name="ncml" serviceType="NCML" base="/thredds/ncml/"/>
+    <service name="uddc" serviceType="UDDC" base="/thredds/uddc/"/>
+  </service>
+
+
+    <datasetScan name="RDA Dataset Files" ID="RDADatasets" path="RDADatasets" location="/glade/p/rda/data/">
+        <metadata inherited="true">
+            <serviceName>all</serviceName>
+            <!--publisher>
+                <name vocabulary="DIF">USGS/ER/WHCMSC/Dr. Richard P. Signell</name>
+                <contact url="http://www.usgs.gov/" email="rsignell@usgs.gov"/>
+            </publisher-->
+        </metadata>
+        <filter>
+            <include wildcard="ds083.2" atomic="false" collection="false"/>
+            <include wildcard="ds093.1" atomic="false" collection="false"/>
+            <include wildcard="ds094.1" atomic="false" collection="false"/>
+            <include wildcard="ds277.6" atomic="false" collection="false"/>
+            <include wildcard="ds285.3" atomic="false" collection="false"/>
+            <include wildcard="ds629.1" atomic="false" collection="false"/>
+            <include wildcard="ds629.2" atomic="false" collection="false"/>
+            <include wildcard="ds629.3" atomic="false" collection="false"/>
+            <include wildcard="ds629.5" atomic="false" collection="false"/>
+            <include wildcard="ds629.6" atomic="false" collection="false"/>
+            <include wildcard="ds631.0" atomic="false" collection="false"/>
+            <exclude wildcard="ds[14789]*" atomic="true" collection="true"/>
+            <exclude wildcard="ds0[1234567]*" atomic="true" collection="true"/>
+            <exclude wildcard="ds08[012456789]*" atomic="true" collection="true"/>
+            <exclude wildcard="ds083.[013456789]" atomic="true" collection="true"/>
+            <exclude wildcard="ds09[01256789]*" atomic="true" collection="true"/>
+            <exclude wildcard="ds093.[023456789]" atomic="true" collection="true"/>
+            <exclude wildcard="ds094.[023456789]" atomic="true" collection="true"/>
+            <exclude wildcard="ds2[01234569]*" atomic="true" collection="true"/>
+            <exclude wildcard="ds27[012345689]*" atomic="true" collection="true"/>
+            <exclude wildcard="ds277.[012345789]*" atomic="true" collection="true"/>
+            <exclude wildcard="ds28[012346789]*" atomic="true" collection="true"/>
+            <exclude wildcard="ds285.[012456789]*" atomic="true" collection="true"/>
+            <exclude wildcard="ds3[023456789]*" atomic="true" collection="true"/>
+            <exclude wildcard="ds31[012345789]*" atomic="true" collection="true"/>
+            <exclude wildcard="ds316.[123456789]*" atomic="true" collection="true"/>
+            <exclude wildcard="ds5[123456789]*" atomic="true" collection="true"/>
+            <exclude wildcard="ds50[013456789]*" atomic="true" collection="true"/>
+            <exclude wildcard="ds502.[123456789]*" atomic="true" collection="true"/>
+            <exclude wildcard="ds6[01456789]*" atomic="true" collection="true"/>
+            <exclude wildcard="ds62[012345678]*" atomic="true" collection="true"/>
+            <exclude wildcard="ds629.[04789]*" atomic="true" collection="true"/>
+            <exclude wildcard="ds63[023456789]*" atomic="true" collection="true"/>
+            <exclude wildcard="ds631.[123456789]*" atomic="true" collection="true"/>
+            <exclude wildcard="*.html"/>
+            <exclude wildcard="huron_ftp_dataset.list"/>
+            <exclude wildcard="ERA40" atomic="true" collection="true"/>
+            <exclude wildcard="icoads" atomic="true" collection="true"/>
+            <exclude wildcard="restricted" atomic="true" collection="true"/>
+            <exclude wildcard="ua" atomic="true" collection="true"/>
+            <exclude wildcard="README_rda-data_contents"/>
+            <exclude wildcard="xx"/>
+            <exclude wildcard=".htaccess"/>
+            <exclude wildcard=".htaccess.keep"/>
+            <exclude wildcard=".test"/>
+            <exclude wildcard=".writable"/>
+            <!-- for ds083.2 -->
+            <exclude wildcard="grib2" atomic="false" collection="true"/>
+            <!-- for ds316.0 -->
+            <exclude wildcard="rcp2_6" atomic="false" collection="true"/>
+            <!-- for ds502.0 -->
+            <exclude wildcard="big_endian" atomic="false" collection="true"/>
+        </filter>
+        <sort>
+            <lexigraphicByName increasing="true"/>
+        </sort>
+        <addDatasetSize/>
+    </datasetScan>
+
+
+    <catalogRef name="RDA Dataset Aggregations" xlink:href="aggregations.xml" xlink:title="RDA Dataset Aggregations" />
+
+</catalog>

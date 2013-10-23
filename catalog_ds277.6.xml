@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog name="ds277.6 Catalog"
+        xmlns="http://www.unidata.ucar.edu/namespaces/thredds/InvCatalog/v1.0"
+        xmlns:xlink="http://www.w3.org/1999/xlink">
+
+  <service name="all" serviceType="Compound" base="">
+    <service name="HTTPServer" serviceType="HTTPServer" base="/thredds/fileServer/"/>
+    <service name="opendap" serviceType="OPENDAP" base="/thredds/dodsC/"/>
+    <service name="ncss" serviceType="NetcdfSubset" base="/thredds/ncss/grid/"/>
+    <service name="cdmremote" serviceType="CdmRemote" base="/thredds/cdmremote/"/>
+    
+    <service name="wcs" serviceType="WCS" base="/thredds/wcs/"/>
+    <service name="wms" serviceType="WMS" base="/thredds/wms/"/>
+    
+    <service name="iso" serviceType="ISO" base="/thredds/iso/"/>
+    <service name="ncml" serviceType="NCML" base="/thredds/ncml/"/>
+    <service name="uddc" serviceType="UDDC" base="/thredds/uddc/"/>
+  </service>
+
+  <featureCollection name="ds277.6"
+                     featureType="GRIB"
+                     harvest="true"
+                     path="ds277.6/1"
+  >
+
+    <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-1</dataFormat>
+           <documentation type="summary">
+           [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds277.6 for original RDA Dataset Page]
+          </documentation>
+    </metadata>
+
+    <collection name="ds277.6" 
+                spec="/glade/p/rda/data/ds277.6/monthly/godas\.M\..*\.grb$"
+                dateFormatMark="#godas.M.#yyyyMM"
+                olderThan="0 min"
+    />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+           <useTableVersion>false</useTableVersion>
+         </pdsHash>
+         <gdsName hash='-1530353004' groupName='Potential Temperature, Salinity, Sea Surface Height'/>
+         <gdsName hash='283749012' groupName='Ocean Current or Surface Momentum Flux'/>
+       </gribConfig>
+       <update startup="false" trigger="allow"/>
+  </featureCollection>
+
+</catalog>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog name="THREDDS Server Default Catalog : You must change this to fit your server!"
+        xmlns="http://www.unidata.ucar.edu/namespaces/thredds/InvCatalog/v1.0"
+        xmlns:xlink="http://www.w3.org/1999/xlink">
+
+  <dataset name="RDA Dataset Aggregations">
+    <catalogRef xlink:href="catalog_ds083.2.xml" xlink:title="ds083.2" name="" />
+    <catalogRef xlink:href="catalog_ds093.1.xml" xlink:title="ds093.1" name="" />
+    <catalogRef xlink:href="catalog_ds094.1.xml" xlink:title="ds094.1" name="" />
+    <catalogRef xlink:href="catalog_ds277.6.xml" xlink:title="ds277.6" name="" />
+    <catalogRef xlink:href="catalog_ds285.3.xml" xlink:title="ds285.3" name="" />
+    <catalogRef xlink:href="catalog_ds316.0.xml" xlink:title="ds316.0" name="" />
+    <catalogRef xlink:href="catalog_ds502.0.xml" xlink:title="ds502.0" name="" />
+    <catalogRef xlink:href="catalog_ds629.1.xml" xlink:title="ds629.1" name="" />
+    <catalogRef xlink:href="catalog_ds629.2.xml" xlink:title="ds629.2" name="" />
+    <catalogRef xlink:href="catalog_ds629.3.xml" xlink:title="ds629.3" name="" />
+    <catalogRef xlink:href="catalog_ds629.5.xml" xlink:title="ds629.5" name="" />
+    <catalogRef xlink:href="catalog_ds629.6.xml" xlink:title="ds629.6" name="" />
+    <catalogRef xlink:href="catalog_ds631.0.xml" xlink:title="ds631.0" name="" />
+
+    <!--catalogRef xlink:href="catalog_ds629.0.xml" xlink:title="ds629.0" name="" /-->
+    <!--catalogRef xlink:href="catalog_ds461.0.xml" xlink:title="ds461.0" name="" /-->
+  </dataset>
+
+</catalog>

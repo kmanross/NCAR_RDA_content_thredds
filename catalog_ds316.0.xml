@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog name="ds316.0 Catalog"
+        xmlns="http://www.unidata.ucar.edu/namespaces/thredds/InvCatalog/v1.0"
+        xmlns:xlink="http://www.w3.org/1999/xlink">
+
+  <service name="all" serviceType="Compound" base="">
+    
+    <service name="HTTPServer" serviceType="HTTPServer" base="/thredds/fileServer/"/>
+    <service name="opendap" serviceType="OPENDAP" base="/thredds/dodsC/"/>
+    <service name="ncss" serviceType="NetcdfSubset" base="/thredds/ncss/grid/"/>
+    <service name="cdmremote" serviceType="CdmRemote" base="/thredds/cdmremote/"/>
+    
+    <service name="wcs" serviceType="WCS" base="/thredds/wcs/"/>
+    <service name="wms" serviceType="WMS" base="/thredds/wms/"/>
+    
+    <service name="iso" serviceType="ISO" base="/thredds/iso/"/>
+    <service name="ncml" serviceType="NCML" base="/thredds/ncml/"/>
+    <service name="uddc" serviceType="UDDC" base="/thredds/uddc/"/>
+  </service>
+
+
+  <dataset name="20th Century Simulation">
+
+    <dataset name="20th Century Simulation Yearly Timeseries-Parameter Aggregations"
+             ID="ds316.0_20th_ts_AGG"
+             urlPath="ds316.0/10/best"
+             harvest="true">
+       <serviceName>all</serviceName>
+       <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+         <aggregation dimName="time" type="Union">
+           <scan location="/glade/p/rda/data/ds316.0/20thC/ts/" suffix=".nc" subdirs="true"/>
+         </aggregation>
+       </netcdf>
+    </dataset>
+
+    <dataset name="20th Century Simulation Monthly Synoptic Sort Aggregations"
+             ID="ds316.0_20th_syn_AGG"
+             urlPath="ds316.0/11/best"
+             harvest="true">
+       <serviceName>all</serviceName>
+       <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+         <aggregation dimName="time" type="Union">
+           <scan location="/glade/p/rda/data/ds316.0/20thC/synop/" suffix=".nc" subdirs="true"/>
+         </aggregation>
+       </netcdf>
+    </dataset>
+
+  </dataset>
+
+  <dataset name="RCP 4.5">
+
+    <dataset name="rcp4.5 Yearly Timeseries-Parameter Aggregations"
+             ID="ds316.0_rcp4.5_ts_AGG"
+             urlPath="ds316.0/16/best"
+             harvest="true">
+       <serviceName>all</serviceName>
+       <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+         <aggregation dimName="time" type="Union">
+           <scan location="/glade/p/rda/data/ds316.0/rcp4_5/ts/" suffix=".nc" subdirs="true"/>
+         </aggregation>
+       </netcdf>
+    </dataset>
+
+    <dataset name="rcp4.5 Monthly Synoptic Sort Aggregations"
+             ID="ds316.0_rcp4.5_syn_AGG"
+             urlPath="ds316.0/17/best"
+             harvest="true">
+       <serviceName>all</serviceName>
+       <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+         <aggregation dimName="time" type="Union">
+           <scan location="/glade/p/rda/data/ds316.0/rcp4_5/synop/" suffix=".nc" subdirs="true"/>
+         </aggregation>
+       </netcdf>
+    </dataset>
+
+  </dataset>
+
+  <dataset name="RCP 6.0">
+
+    <dataset name="rcp6.0 Yearly Timeseries-Parameter Aggregations"
+             ID="ds316.0_rcp6.0_ts_AGG"
+             urlPath="ds316.0/19/best"
+             harvest="true">
+       <serviceName>all</serviceName>
+       <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+         <aggregation dimName="time" type="Union">
+           <scan location="/glade/p/rda/data/ds316.0/rcp6_0/ts/" suffix=".nc" subdirs="true"/>
+         </aggregation>
+       </netcdf>
+    </dataset>
+
+    <dataset name="rcp6.0 Monthly Synoptic Sort Aggregations"
+             ID="ds316.0_rcp6.0_syn_AGG"
+             urlPath="ds316.0/20/best"
+             harvest="true">
+       <serviceName>all</serviceName>
+       <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+         <aggregation dimName="time" type="Union">
+           <scan location="/glade/p/rda/data/ds316.0/rcp6_0/synop/" suffix=".nc" subdirs="true"/>
+         </aggregation>
+       </netcdf>
+    </dataset>
+
+  </dataset>
+
+  <dataset name="RCP 8.5">
+
+    <dataset name="rcp8.5 Yearly Timeseries-Parameter Aggregations"
+             ID="ds316.0_rcp8.5_ts_AGG"
+             urlPath="ds316.0/22/best"
+             harvest="true">
+       <serviceName>all</serviceName>
+       <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+         <aggregation dimName="time" type="Union">
+           <scan location="/glade/p/rda/data/ds316.0/rcp8_5/ts/" suffix=".nc" subdirs="true"/>
+         </aggregation>
+       </netcdf>
+    </dataset>
+
+    <dataset name="rcp8.5 Monthly Synoptic Sort Aggregations"
+             ID="ds316.0_rcp8.5_syn_AGG"
+             urlPath="ds316.0/23/best"
+             harvest="true">
+       <serviceName>all</serviceName>
+       <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+         <aggregation dimName="time" type="Union">
+           <scan location="/glade/p/rda/data/ds316.0/rcp8_5/synop/" suffix=".nc" subdirs="true"/>
+         </aggregation>
+       </netcdf>
+    </dataset>
+
+  </dataset>
+
+
+</catalog>

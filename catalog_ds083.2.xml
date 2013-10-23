@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog name="ds083.1 Catalog"
+        xmlns="http://www.unidata.ucar.edu/namespaces/thredds/InvCatalog/v1.0"
+        xmlns:xlink="http://www.w3.org/1999/xlink">
+
+  <service name="all" serviceType="Compound" base="">
+    
+    <service name="HTTPServer" serviceType="HTTPServer" base="/thredds/fileServer/"/>
+    <service name="opendap" serviceType="OPENDAP" base="/thredds/dodsC/"/>
+    <service name="ncss" serviceType="NetcdfSubset" base="/thredds/ncss/grid/"/>
+    <service name="cdmremote" serviceType="CdmRemote" base="/thredds/cdmremote/"/>
+    
+    <service name="wcs" serviceType="WCS" base="/thredds/wcs/"/>
+    <service name="wms" serviceType="WMS" base="/thredds/wms/"/>
+    
+    <service name="iso" serviceType="ISO" base="/thredds/iso/"/>
+    <service name="ncml" serviceType="NCML" base="/thredds/ncml/"/>
+    <service name="uddc" serviceType="UDDC" base="/thredds/uddc/"/>
+  </service>
+
+
+ <!--dataset name="ds083.2"-->
+
+     <featureCollection name="ds083.2"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds083.2/1">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-1</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds083.2/ for original RDA Dataset Page]
+    
+    These NCEP FNL (Final) Operational Global Analysis data are on 1.0x1.0 degree grids prepared operationally every six hours. This product is from the Global Data Assimilation System (GDAS), which continuously collects observational data from the Global Telecommunications System (GTS), and other sources, for many analyses. The FNLs are made with the same model which NCEP uses in the Global Forecast System (GFS), but the FNLs are prepared about an hour or so after the GFS is initialized. The FNLs are delayed so that more observational data can be used. The GFS is run earlier in support of time critical forecast needs, and uses the FNL from the previous 6 hour cycle as part of its initialization.
+    
+    The analyses are available on the surface, at 26 mandatory (and other pressure) levels from 1000mb to 10mb, in the surface boundary layer and at some sigma layers, the tropopause and a few others. Parameters include surface pressure, sea level pressure, geopotential height, temperature, sea surface temperature, soil values, ice cover, relative humidity, u- and v- winds, vertical motion, vorticity and ozone.
+    
+    The archive time series is continuously extended to a near-current date. It is not maintained in real-time.
+           </documentation>
+         </metadata>
+    <!--
+                   dateFormatMark="#fnl_#yyyyMMdd_HH"
+                   timePartition="1 month"
+                   spec="/glade/p/rda/data/ds083.2/grib1/**/fnl_.*_00(_c)*$"
+    -->
+       <collection name="ds083.2" spec="/glade/p/rda/data/ds083.2/grib1/**/fnl_.*_00(_c)*$"
+                   olderThan="0 min"/>
+    
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+           <useTableVersion>false</useTableVersion>
+         </pdsHash> 
+       </gribConfig>
+       <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+ <!--/dataset-->
+
+</catalog>

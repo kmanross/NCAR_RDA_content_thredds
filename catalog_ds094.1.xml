@@ -1,0 +1,4022 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog name="ds094.1 Catalog" 
+        xmlns="http://www.unidata.ucar.edu/namespaces/thredds/InvCatalog/v1.0"
+                xmlns:xlink="http://www.w3.org/1999/xlink">
+
+  <service name="all" serviceType="Compound" base="">
+
+    <service name="HTTPServer" serviceType="HTTPServer" base="/thredds/fileServer/"/>
+    <service name="opendap" serviceType="OPENDAP" base="/thredds/dodsC/"/>
+    <service name="ncss" serviceType="NetcdfSubset" base="/thredds/ncss/grid/"/>
+    <service name="cdmremote" serviceType="CdmRemote" base="/thredds/cdmremote/"/>
+
+    <service name="wcs" serviceType="WCS" base="/thredds/wcs/"/>
+    <service name="wms" serviceType="WMS" base="/thredds/wms/"/>
+
+    <service name="iso" serviceType="ISO" base="/thredds/iso/"/>
+    <service name="ncml" serviceType="NCML" base="/thredds/ncml/"/>
+    <service name="uddc" serviceType="UDDC" base="/thredds/uddc/"/>
+  </service>
+
+
+  <!--dataset name="ds094.1 "-->
+
+
+     <featureCollection name="ds094.1_4lftx"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/4lftx">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_4lftx" spec="/glade/p/rda/data/ds094.1/**/4lftx\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_apcp"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/apcp">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_apcp" spec="/glade/p/rda/data/ds094.1/**/apcp\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_cape.sfc"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/cape.sfc">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_cape.sfc" spec="/glade/p/rda/data/ds094.1/**/cape.sfc\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_cfrzr"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/cfrzr">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_cfrzr" spec="/glade/p/rda/data/ds094.1/**/cfrzr\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_chi200"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/chi200">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_chi200" spec="/glade/p/rda/data/ds094.1/**/chi200\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_chi200.l"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/chi200.l">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_chi200.l" spec="/glade/p/rda/data/ds094.1/**/chi200.l\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_chi850"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/chi850">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_chi850" spec="/glade/p/rda/data/ds094.1/**/chi850\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_chi850.l"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/chi850.l">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_chi850.l" spec="/glade/p/rda/data/ds094.1/**/chi850.l\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_cicep"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/cicep">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_cicep" spec="/glade/p/rda/data/ds094.1/**/cicep\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_cldcovlow"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/cldcovlow">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_cldcovlow" spec="/glade/p/rda/data/ds094.1/**/cldcovlow\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_cldcovmid"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/cldcovmid">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_cldcovmid" spec="/glade/p/rda/data/ds094.1/**/cldcovmid\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_cldcovtot"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/cldcovtot">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_cldcovtot" spec="/glade/p/rda/data/ds094.1/**/cldcovtot\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_clwmr1000"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/clwmr1000">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_clwmr1000" spec="/glade/p/rda/data/ds094.1/**/clwmr1000\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_cprat"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/cprat">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_cprat" spec="/glade/p/rda/data/ds094.1/**/cprat\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_crain"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/crain">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_crain" spec="/glade/p/rda/data/ds094.1/**/crain\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_csnow"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/csnow">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_csnow" spec="/glade/p/rda/data/ds094.1/**/csnow\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_dlwsfc"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/dlwsfc">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_dlwsfc" spec="/glade/p/rda/data/ds094.1/**/dlwsfc\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_dlwsfc.l"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/dlwsfc.l">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_dlwsfc.l" spec="/glade/p/rda/data/ds094.1/**/dlwsfc.l\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_dpt2m"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/dpt2m">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_dpt2m" spec="/glade/p/rda/data/ds094.1/**/dpt2m\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_dswsfc"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/dswsfc">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_dswsfc" spec="/glade/p/rda/data/ds094.1/**/dswsfc\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_dswsfc.l"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/dswsfc.l">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_dswsfc.l" spec="/glade/p/rda/data/ds094.1/**/dswsfc.l\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_gflux"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/gflux">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_gflux" spec="/glade/p/rda/data/ds094.1/**/gflux\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_gflux.l"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/gflux.l">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_gflux.l" spec="/glade/p/rda/data/ds094.1/**/gflux.l\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_icecon"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/icecon">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_icecon" spec="/glade/p/rda/data/ds094.1/**/icecon\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_icecon.l"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/icecon.l">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_icecon.l" spec="/glade/p/rda/data/ds094.1/**/icecon.l\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_icethk"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/icethk">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_icethk" spec="/glade/p/rda/data/ds094.1/**/icethk\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_icethk.l"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/icethk.l">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_icethk.l" spec="/glade/p/rda/data/ds094.1/**/icethk.l\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_ipv450"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/ipv450">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_ipv450" spec="/glade/p/rda/data/ds094.1/**/ipv450\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_ipv450.l"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/ipv450.l">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_ipv450.l" spec="/glade/p/rda/data/ds094.1/**/ipv450.l\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_ipv550"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/ipv550">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_ipv550" spec="/glade/p/rda/data/ds094.1/**/ipv550\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_ipv550.l"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/ipv550.l">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_ipv550.l" spec="/glade/p/rda/data/ds094.1/**/ipv550.l\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_ipv650"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/ipv650">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_ipv650" spec="/glade/p/rda/data/ds094.1/**/ipv650\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_ipv650.l"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/ipv650.l">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_ipv650.l" spec="/glade/p/rda/data/ds094.1/**/ipv650.l\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_lftx"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/lftx">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_lftx" spec="/glade/p/rda/data/ds094.1/**/lftx\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_lhtfl"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/lhtfl">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_lhtfl" spec="/glade/p/rda/data/ds094.1/**/lhtfl\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_lhtfl.l"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/lhtfl.l">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_lhtfl.l" spec="/glade/p/rda/data/ds094.1/**/lhtfl.l\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_ocnmld"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/ocnmld">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_ocnmld" spec="/glade/p/rda/data/ds094.1/**/ocnmld\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_ocnmld.l"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/ocnmld.l">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_ocnmld.l" spec="/glade/p/rda/data/ds094.1/**/ocnmld.l\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_ocnsst"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/ocnsst">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_ocnsst" spec="/glade/p/rda/data/ds094.1/**/ocnsst\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_ocnu5"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/ocnu5">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_ocnu5" spec="/glade/p/rda/data/ds094.1/**/ocnu5\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_ocnv5"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/ocnv5">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_ocnv5" spec="/glade/p/rda/data/ds094.1/**/ocnv5\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_pli"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/pli">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_pli" spec="/glade/p/rda/data/ds094.1/**/pli\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_prate"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/prate">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_prate" spec="/glade/p/rda/data/ds094.1/**/prate\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_prate.l"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/prate.l">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_prate.l" spec="/glade/p/rda/data/ds094.1/**/prate.l\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_pressfc"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/pressfc">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_pressfc" spec="/glade/p/rda/data/ds094.1/**/pressfc\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_pressfc.l"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/pressfc.l">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_pressfc.l" spec="/glade/p/rda/data/ds094.1/**/pressfc.l\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_prmsl"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/prmsl">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_prmsl" spec="/glade/p/rda/data/ds094.1/**/prmsl\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_prmsl.l"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/prmsl.l">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_prmsl.l" spec="/glade/p/rda/data/ds094.1/**/prmsl.l\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_psi200"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/psi200">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_psi200" spec="/glade/p/rda/data/ds094.1/**/psi200\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_psi200.l"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/psi200.l">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_psi200.l" spec="/glade/p/rda/data/ds094.1/**/psi200.l\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_psi850"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/psi850">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_psi850" spec="/glade/p/rda/data/ds094.1/**/psi850\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_psi850.l"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/psi850.l">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_psi850.l" spec="/glade/p/rda/data/ds094.1/**/psi850.l\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_pwat"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/pwat">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_pwat" spec="/glade/p/rda/data/ds094.1/**/pwat\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_pwat.l"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/pwat.l">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_pwat.l" spec="/glade/p/rda/data/ds094.1/**/pwat.l\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_q2m"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/q2m">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_q2m" spec="/glade/p/rda/data/ds094.1/**/q2m\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_q2m.l"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/q2m.l">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_q2m.l" spec="/glade/p/rda/data/ds094.1/**/q2m.l\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_q500"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/q500">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_q500" spec="/glade/p/rda/data/ds094.1/**/q500\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_q500.l"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/q500.l">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_q500.l" spec="/glade/p/rda/data/ds094.1/**/q500.l\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_q700"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/q700">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_q700" spec="/glade/p/rda/data/ds094.1/**/q700\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_q700.l"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/q700.l">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_q700.l" spec="/glade/p/rda/data/ds094.1/**/q700.l\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_q850"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/q850">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_q850" spec="/glade/p/rda/data/ds094.1/**/q850\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_q850.l"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/q850.l">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_q850.l" spec="/glade/p/rda/data/ds094.1/**/q850.l\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_q925"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/q925">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_q925" spec="/glade/p/rda/data/ds094.1/**/q925\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_q925.l"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/q925.l">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_q925.l" spec="/glade/p/rda/data/ds094.1/**/q925.l\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_rh2m"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/rh2m">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_rh2m" spec="/glade/p/rda/data/ds094.1/**/rh2m\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_runoff"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/runoff">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_runoff" spec="/glade/p/rda/data/ds094.1/**/runoff\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_runoff.l"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/runoff.l">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_runoff.l" spec="/glade/p/rda/data/ds094.1/**/runoff.l\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_shtfl"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/shtfl">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_shtfl" spec="/glade/p/rda/data/ds094.1/**/shtfl\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_shtfl.l"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/shtfl.l">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_shtfl.l" spec="/glade/p/rda/data/ds094.1/**/shtfl.l\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_snohf"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/snohf">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_snohf" spec="/glade/p/rda/data/ds094.1/**/snohf\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_snohf.l"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/snohf.l">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_snohf.l" spec="/glade/p/rda/data/ds094.1/**/snohf.l\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_soilm1"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/soilm1">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_soilm1" spec="/glade/p/rda/data/ds094.1/**/soilm1\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_soilm1.l"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/soilm1.l">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_soilm1.l" spec="/glade/p/rda/data/ds094.1/**/soilm1.l\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_soilm1x0.5"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/soilm1x0.5">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_soilm1x0.5" spec="/glade/p/rda/data/ds094.1/**/soilm1x0.5\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_soilm2"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/soilm2">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_soilm2" spec="/glade/p/rda/data/ds094.1/**/soilm2\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_soilm2.l"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/soilm2.l">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_soilm2.l" spec="/glade/p/rda/data/ds094.1/**/soilm2.l\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_soilm2x0.5"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/soilm2x0.5">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_soilm2x0.5" spec="/glade/p/rda/data/ds094.1/**/soilm2x0.5\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_soilm3"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/soilm3">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_soilm3" spec="/glade/p/rda/data/ds094.1/**/soilm3\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_soilm3.l"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/soilm3.l">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_soilm3.l" spec="/glade/p/rda/data/ds094.1/**/soilm3.l\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_soilm3x0.5"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/soilm3x0.5">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_soilm3x0.5" spec="/glade/p/rda/data/ds094.1/**/soilm3x0.5\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_soilm4"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/soilm4">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_soilm4" spec="/glade/p/rda/data/ds094.1/**/soilm4\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_soilm4.l"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/soilm4.l">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_soilm4.l" spec="/glade/p/rda/data/ds094.1/**/soilm4.l\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_soilm4x0.5"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/soilm4x0.5">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_soilm4x0.5" spec="/glade/p/rda/data/ds094.1/**/soilm4x0.5\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_soilt1"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/soilt1">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_soilt1" spec="/glade/p/rda/data/ds094.1/**/soilt1\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_soilt1.l"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/soilt1.l">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_soilt1.l" spec="/glade/p/rda/data/ds094.1/**/soilt1.l\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_swe"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/swe">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_swe" spec="/glade/p/rda/data/ds094.1/**/swe\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_swe.l"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/swe.l">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_swe.l" spec="/glade/p/rda/data/ds094.1/**/swe.l\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_swex0.5"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/swex0.5">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_swex0.5" spec="/glade/p/rda/data/ds094.1/**/swex0.5\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_t1000"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/t1000">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_t1000" spec="/glade/p/rda/data/ds094.1/**/t1000\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_t1000.l"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/t1000.l">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_t1000.l" spec="/glade/p/rda/data/ds094.1/**/t1000.l\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_t2"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/t2">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_t2" spec="/glade/p/rda/data/ds094.1/**/t2\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_t2.l"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/t2.l">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_t2.l" spec="/glade/p/rda/data/ds094.1/**/t2.l\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_t200"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/t200">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_t200" spec="/glade/p/rda/data/ds094.1/**/t200\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_t200.l"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/t200.l">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_t200.l" spec="/glade/p/rda/data/ds094.1/**/t200.l\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_t50"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/t50">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_t50" spec="/glade/p/rda/data/ds094.1/**/t50\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_t50.l"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/t50.l">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_t50.l" spec="/glade/p/rda/data/ds094.1/**/t50.l\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_t500"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/t500">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_t500" spec="/glade/p/rda/data/ds094.1/**/t500\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_t500.l"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/t500.l">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_t500.l" spec="/glade/p/rda/data/ds094.1/**/t500.l\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_t700"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/t700">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_t700" spec="/glade/p/rda/data/ds094.1/**/t700\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_t700.l"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/t700.l">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_t700.l" spec="/glade/p/rda/data/ds094.1/**/t700.l\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_t850"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/t850">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_t850" spec="/glade/p/rda/data/ds094.1/**/t850\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_t850.l"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/t850.l">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_t850.l" spec="/glade/p/rda/data/ds094.1/**/t850.l\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_tmax"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/tmax">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_tmax" spec="/glade/p/rda/data/ds094.1/**/tmax\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_tmax.l"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/tmax.l">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_tmax.l" spec="/glade/p/rda/data/ds094.1/**/tmax.l\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_tmin"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/tmin">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_tmin" spec="/glade/p/rda/data/ds094.1/**/tmin\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_tmin.l"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/tmin.l">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_tmin.l" spec="/glade/p/rda/data/ds094.1/**/tmin.l\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_tmp2m"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/tmp2m">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_tmp2m" spec="/glade/p/rda/data/ds094.1/**/tmp2m\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_tmp2m.l"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/tmp2m.l">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_tmp2m.l" spec="/glade/p/rda/data/ds094.1/**/tmp2m.l\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_tmphy1"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/tmphy1">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_tmphy1" spec="/glade/p/rda/data/ds094.1/**/tmphy1\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_tmphy1.l"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/tmphy1.l">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_tmphy1.l" spec="/glade/p/rda/data/ds094.1/**/tmphy1.l\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_tmpsfc"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/tmpsfc">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_tmpsfc" spec="/glade/p/rda/data/ds094.1/**/tmpsfc\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_tmpsfc.l"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/tmpsfc.l">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_tmpsfc.l" spec="/glade/p/rda/data/ds094.1/**/tmpsfc.l\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_ulwsfc"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/ulwsfc">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_ulwsfc" spec="/glade/p/rda/data/ds094.1/**/ulwsfc\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_ulwsfc.l"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/ulwsfc.l">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_ulwsfc.l" spec="/glade/p/rda/data/ds094.1/**/ulwsfc.l\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_ulwtoa"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/ulwtoa">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_ulwtoa" spec="/glade/p/rda/data/ds094.1/**/ulwtoa\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_ulwtoa.l"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/ulwtoa.l">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_ulwtoa.l" spec="/glade/p/rda/data/ds094.1/**/ulwtoa.l\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_uswsfc"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/uswsfc">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_uswsfc" spec="/glade/p/rda/data/ds094.1/**/uswsfc\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_uswsfc.l"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/uswsfc.l">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_uswsfc.l" spec="/glade/p/rda/data/ds094.1/**/uswsfc.l\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_uswtoa"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/uswtoa">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_uswtoa" spec="/glade/p/rda/data/ds094.1/**/uswtoa\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_uswtoa.l"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/uswtoa.l">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_uswtoa.l" spec="/glade/p/rda/data/ds094.1/**/uswtoa.l\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_vvel500"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/vvel500">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_vvel500" spec="/glade/p/rda/data/ds094.1/**/vvel500\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_vvel500.l"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/vvel500.l">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_vvel500.l" spec="/glade/p/rda/data/ds094.1/**/vvel500.l\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_wnd0-30mb"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/wnd0-30mb">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_wnd0-30mb" spec="/glade/p/rda/data/ds094.1/**/wnd0-30mb\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_wnd1000"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/wnd1000">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_wnd1000" spec="/glade/p/rda/data/ds094.1/**/wnd1000\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_wnd1000.l"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/wnd1000.l">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_wnd1000.l" spec="/glade/p/rda/data/ds094.1/**/wnd1000.l\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_wnd10m"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/wnd10m">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_wnd10m" spec="/glade/p/rda/data/ds094.1/**/wnd10m\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_wnd10m.l"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/wnd10m.l">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_wnd10m.l" spec="/glade/p/rda/data/ds094.1/**/wnd10m.l\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_wnd10mx0.5"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/wnd10mx0.5">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_wnd10mx0.5" spec="/glade/p/rda/data/ds094.1/**/wnd10mx0.5\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_wnd200"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/wnd200">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_wnd200" spec="/glade/p/rda/data/ds094.1/**/wnd200\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_wnd200.l"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/wnd200.l">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_wnd200.l" spec="/glade/p/rda/data/ds094.1/**/wnd200.l\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_wnd500"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/wnd500">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_wnd500" spec="/glade/p/rda/data/ds094.1/**/wnd500\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_wnd500.l"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/wnd500.l">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_wnd500.l" spec="/glade/p/rda/data/ds094.1/**/wnd500.l\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_wnd700"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/wnd700">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_wnd700" spec="/glade/p/rda/data/ds094.1/**/wnd700\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_wnd700.l"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/wnd700.l">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_wnd700.l" spec="/glade/p/rda/data/ds094.1/**/wnd700.l\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_wnd850"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/wnd850">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_wnd850" spec="/glade/p/rda/data/ds094.1/**/wnd850\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_wnd850.l"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/wnd850.l">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_wnd850.l" spec="/glade/p/rda/data/ds094.1/**/wnd850.l\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_wndstrs"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/wndstrs">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_wndstrs" spec="/glade/p/rda/data/ds094.1/**/wndstrs\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_wndstrs.l"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/wndstrs.l">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_wndstrs.l" spec="/glade/p/rda/data/ds094.1/**/wndstrs.l\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_z1000"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/z1000">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_z1000" spec="/glade/p/rda/data/ds094.1/**/z1000\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_z1000.l"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/z1000.l">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_z1000.l" spec="/glade/p/rda/data/ds094.1/**/z1000.l\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_z200"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/z200">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_z200" spec="/glade/p/rda/data/ds094.1/**/z200\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_z200.l"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/z200.l">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_z200.l" spec="/glade/p/rda/data/ds094.1/**/z200.l\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_z500"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/z500">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_z500" spec="/glade/p/rda/data/ds094.1/**/z500\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_z500.l"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/z500.l">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_z500.l" spec="/glade/p/rda/data/ds094.1/**/z500.l\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_z700"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/z700">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_z700" spec="/glade/p/rda/data/ds094.1/**/z700\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_z700.l"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/z700.l">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_z700.l" spec="/glade/p/rda/data/ds094.1/**/z700.l\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_z850"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/z850">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_z850" spec="/glade/p/rda/data/ds094.1/**/z850\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+
+     <featureCollection name="ds094.1_z850.l"
+                        featureType="GRIB"
+                        harvest="true"
+                        path="ds094.1/0/z850.l">
+       <metadata inherited="true">
+         <serviceName>all</serviceName>
+         <dataFormat>GRIB-2</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds094.1 for original RDA Dataset Page]
+
+           </documentation>
+         </metadata>
+
+       <collection name="ds094.1_z850.l" spec="/glade/p/rda/data/ds094.1/**/z850.l\.\w*das\w*.*\.grb2$"
+                   olderThan="0 min"
+                   />
+
+       <gribConfig datasetTypes="Best">
+         <bestNamer name="Timeseries Aggregation"/>
+         <pdsHash>
+          <useGenType>true</useGenType>
+         </pdsHash>
+       </gribConfig>
+      <update startup="false" trigger="allow"/>
+     </featureCollection>
+
+  <!--/dataset-->
+
+</catalog>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog name="ds502.0 Catalog"
+        xmlns="http://www.unidata.ucar.edu/namespaces/thredds/InvCatalog/v1.0"
+        xmlns:xlink="http://www.w3.org/1999/xlink">
+
+  <service name="all" serviceType="Compound" base="">
+    
+    <service name="HTTPServer" serviceType="HTTPServer" base="/thredds/fileServer/"/>
+    <service name="opendap" serviceType="OPENDAP" base="/thredds/dodsC/"/>
+    <service name="ncss" serviceType="NetcdfSubset" base="/thredds/ncss/grid/"/>
+    <service name="cdmremote" serviceType="CdmRemote" base="/thredds/cdmremote/"/>
+    
+    <service name="wcs" serviceType="WCS" base="/thredds/wcs/"/>
+    <service name="wms" serviceType="WMS" base="/thredds/wms/"/>
+    
+    <service name="iso" serviceType="ISO" base="/thredds/iso/"/>
+    <service name="ncml" serviceType="NCML" base="/thredds/ncml/"/>
+    <service name="uddc" serviceType="UDDC" base="/thredds/uddc/"/>
+  </service>
+
+  <dataset name="ds502.0">
+
+    <dataset name="CMORPH Aggregation" ID="ds316.0-AGG" urlPath="ds502.0/2" 
+             harvest="true">
+       <serviceName>all</serviceName>
+       <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+         <aggregation dimName="time" type="joinExisting">
+           <scan location="/glade/p/rda/data/ds502.0/netcdf/" suffix=".nc" subdirs="true"/>
+         </aggregation>
+       </netcdf>
+     </dataset>
+
+
+<!--
+   <datasetScan name="CMORPH Data Files (NetCDF)" path="ds502.0/2" location="/glade/p/rda/data/ds502.0/netcdf" harvest="true"> 
+   <metadata inherited="true">
+       <serviceName>all</serviceName>
+       <dataFormat>netCDF</dataFormat>
+     </metadata>
+    <filter>
+        <include wildcard="*.nc"/>
+      </filter>
+   </datasetScan>
+-->
+
+ </dataset>
+
+<!--
+
+ <datasetScan name="ds502.0" path="ds502.0" location="/glade/p/rda/data/ds502.0/" harvest="true"> 
+   <metadata inherited="true">
+     <serviceName>all</serviceName>
+     <dataFormat>netCDF</dataFormat>
+           <documentation type="summary">
+    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds502.0/ for original RDA Dataset Page]
+
+This dataset includes climate model output data from NCAR's Community Earth System Model (CESM) CMIP-5 runs, with output fields for the 3-D global atmosphere at six hourly intervals. A basic set of parameters is provided on 26 model hybrid level surfaces: specific humidity, temperature, wind components, and geopotential height to support regional modeling studies. Additional parameters are provided on single level grids to support analysis studies including surface temperature. Data are available in yearly time-series parameter archive files, and monthly synoptic time archive files. An interface is provided to give users the option to select parameter, temporal, and spatial subsets from the monthly synoptic time archive files. The data are a single 20th Century (1950-2005) simulation and four concomitant Representative Concentration Pathway (RCP) future scenarios spanning 2005-2100. These computer runs were completed in 2011.
+NOTE: All RCP2.6 data has been removed due to corrupted data caused by a model bug.
+
+     </documentation>
+   </metadata>
+    <filter>
+      <include wildcard="*.nc"/>
+    </filter>
+ </datasetScan>
+
+-->
+
+</catalog>
