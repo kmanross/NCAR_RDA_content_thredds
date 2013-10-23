@@ -18,148 +18,89 @@
     <service name="uddc" serviceType="UDDC" base="/thredds/uddc/"/>
   </service>
 
- <featureCollection name="ASR 30 km 3d pressure level analysis" featureType="FMRC" harvest="true" path="ds631.0/6">
-    <serviceName>all</serviceName>
-    <dataFormat>NetCDF</dataFormat>
-
-    <collection  spec="/glade/p/rda/data/ds631.0/asr30km.anl.3D/**/asr30km.anl.3D.#yyyyMMdd#.nc" olderThan="1 min" />
-   <update startup="false" trigger="true" />
-   <protoDataset choice="Penultimate" change="0 2 3 * * ? *" />
-   <fmrcConfig regularize="true" datasetTypes="Best" />
-
-  </featureCollection>
-
- <featureCollection name="ASR 30 km 2d surface analysis" featureType="FMRC" harvest="true" path="ds631.0/9">
-    <serviceName>all</serviceName>
-    <dataFormat>NetCDF</dataFormat>
-
-    <collection  spec="/glade/p/rda/data/ds631.0/asr30km.anl.2d/**/asr30km.anl.2d.#yyyyMMdd#.nc" olderThan="1 min" />
-
-   <update startup="false" trigger="true" />
-   <protoDataset choice="Penultimate" change="0 2 3 * * ? *" />
-   <fmrcConfig regularize="true" datasetTypes="Best" />
-
-  </featureCollection>
-
- <!--featureCollection name="ASR 30 km 2d surface forecast" featureType="FMRC" harvest="true" path="ds631.0/15">
-    <serviceName>all</serviceName>
-    <dataFormat>NetCDF</dataFormat>
-
-    <collection  spec="/glade/p/rda/data/ds631.0/asr30km.fcst3.2d/**/asr30km.anl.2d.#yyyyMMdd#.nc" olderThan="5 min" />
-   <update startup="false" trigger="true" />
-   <protoDataset choice="Penultimate" change="0 2 3 * * ? *" />
-   <fmrcConfig regularize="true" datasetTypes="Best" />
-
-  </featureCollection>
-
- <featureCollection name="ASR 30 km pressure level forecast" featureType="FMRC" harvest="true" path="ds631.0/14">
-    <serviceName>all</serviceName>
-    <dataFormat>NetCDF</dataFormat>
-
-    <collection  spec="/glade/p/rda/data/ds631.0/asr30km.anl.2d/**/asr30km.fcst3.3D.#yyyyMMdd#.nc" olderThan="5 min" />
-   <update startup="false" trigger="true" />
-   <protoDataset choice="Penultimate" change="0 2 3 * * ? *" />
-   <fmrcConfig regularize="true" datasetTypes="Best" />
-
-  </featureCollection-->
-
- <!--featureCollection name="ASR 30km monthly means of analysis products" featureType="FMRC" harvest="true" path="ds631.0/anl/mm">
-    <serviceName>all</serviceName>
-    <dataFormat>NetCDF</dataFormat>
-
-    <collection  spec="/glade/p/rda/data/ds631.0/DS631.0/asr30km.anl.monthly/**/ASR30km.anl.2d.mon.#yyyyMM#.nc"
-                 olderThan="5 min" />
-   <update startup="false" trigger="true" />
-   <protoDataset choice="Penultimate" change="0 2 3 * * ? *" />
-   <fmrcConfig regularize="true" datasetTypes="Best" />
-
-  </featureCollection>
-
- <featureCollection name="ASR 30km monthly means of forecast products" featureType="FMRC" harvest="true" path="ds631.0/fcst/mm">
-    <serviceName>all</serviceName>
-    <dataFormat>NetCDF</dataFormat>
-
-    <collection  spec="/glade/p/rda/data/ds631.0/DS631.0/asr30km.anl.monthly/**/ASR30km.anl.2d.mon.#yyyyMM#.nc"
-                 olderThan="5 min" />
-   <update startup="false" trigger="true" />
-   <protoDataset choice="Penultimate" change="0 2 3 * * ? *" />
-   <fmrcConfig regularize="true" datasetTypes="Best" />
-
-  </featureCollection>
-
- <featureCollection name="ASR 30 km 2d surface analysis" featureType="FMRC" harvest="true" path="ds631.0/anl/2d">
-    <serviceName>all</serviceName>
-    <dataFormat>NetCDF</dataFormat>
-
-    <collection  spec="/glade/p/rda/data/ds631.0/asr30km.anl.2d/**/asr30km.anl.2d.#yyyyMMdd#.nc"
-                 olderThan="5 min" />
-   <update startup="false" trigger="true" />
-   <protoDataset choice="Penultimate" change="0 2 3 * * ? *" />
-   <fmrcConfig regularize="true" datasetTypes="Best" />
-
-  </featureCollection-->
-
-
-  <!--dataset name="Arctic System Reanalysis (ASR) Project - Analysis">
-
-    <dataset name="ds631.0 Analysis 2D Fields" ID="ds631.0_anl_2d-AGG" urlPath="ds631.0/anl/2d/Agg.nc" harvest="true">
+    <dataset name="Invariant variables for ASR 30 km products"
+             ID="ds631.0_invariant-AGG"
+             urlPath="ds631.0/3/best"
+             harvest="true">
        <serviceName>all</serviceName>
        <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
-         <aggregation dimName="time" type="joinExisting">
-           <scan location="/glade/p/rda/data/ds631.0/asr30km.anl.2d/" suffix=".nc" subdirs="false"/>
+         <aggregation dimName="time" type="Union">
+           <scan location="/glade/p/rda/data/ds631.0/asr30km.invariant/" suffix=".nc" subdirs="false"/>
          </aggregation>
        </netcdf>
      </dataset>
 
-    <dataset name="ds631.0 Analysis 3D Fields" ID="ds631.0_anl_3d-AGG" urlPath="ds631.0/anl/3d/Agg.nc" harvest="true">
+    <dataset name="ASR 30 km 3d pressure level analysis"
+             ID="ds631.0_anl_3d-AGG"
+             urlPath="ds631.0/6/best"
+             harvest="true">
        <serviceName>all</serviceName>
        <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
-         <aggregation dimName="time" type="joinExisting">
+         <aggregation dimName="time" type="Union">
            <scan location="/glade/p/rda/data/ds631.0/asr30km.anl.3D/" suffix=".nc" subdirs="false"/>
          </aggregation>
        </netcdf>
      </dataset>
 
-   </dataset>
-
-  <dataset name="Arctic System Reanalysis (ASR) Project - Forecast">
-
-    <dataset name="ds631.0 Forecast 2D Fields" ID="ds631.0_fcst_2d-AGG" urlPath="ds631.0/fcst/2d/Agg.nc" harvest="true">
+    <dataset name="ASR 30 km 2d surface analysis"
+             ID="ds631.0_anl_2d-AGG"
+             urlPath="ds631.0/9/best"
+             harvest="true">
        <serviceName>all</serviceName>
        <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
-         <aggregation dimName="time" type="joinExisting">
-           <scan location="/glade/p/rda/data/ds631.0/asr30km.fcst3.2d/" suffix=".nc" subdirs="false"/>
+         <aggregation dimName="time" type="Union">
+           <scan location="/glade/p/rda/data/ds631.0/asr30km.anl.2d/" suffix=".nc" subdirs="false"/>
          </aggregation>
        </netcdf>
      </dataset>
 
-    <dataset name="ds631.0 Forecast 3D Fields" ID="ds631.0_fcst_3d-AGG" urlPath="ds631.0/fcst/3d/Agg.nc" harvest="true">
+    <dataset name="ASR 30 km 3d pressure level forecast"
+             ID="ds631.0_fcst_3d-AGG"
+             urlPath="ds631.0/14/best"
+             harvest="true">
        <serviceName>all</serviceName>
        <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
-         <aggregation dimName="time" type="joinExisting">
+         <aggregation dimName="time" type="Union">
            <scan location="/glade/p/rda/data/ds631.0/asr30km.fcst3.3D/" suffix=".nc" subdirs="false"/>
          </aggregation>
        </netcdf>
      </dataset>
 
-   </dataset-->
+    <dataset name="ASR 30 km 2d surface forecast"
+             ID="ds631.0_fcst_2d-AGG"
+             urlPath="ds631.0/15/best"
+             harvest="true">
+       <serviceName>all</serviceName>
+       <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+         <aggregation dimName="time" type="Union">
+           <scan location="/glade/p/rda/data/ds631.0/asr30km.fcst3.2d/" suffix=".nc" subdirs="false"/>
+         </aggregation>
+       </netcdf>
+     </dataset>
 
-<!--
- <datasetScan name="ds631.0" path="ds631.0" location="/glade/p/rda/data/ds631.0/" harvest="true"> 
-   <metadata inherited="true">
-     <serviceName>all</serviceName>
-     <dataFormat>netCDF</dataFormat>
-           <documentation type="summary">
-    [EXPERIMENTAL INTERFACE :: Please see http://rda.ucar.edu/datasets/ds631.0/ for original RDA Dataset Page]
+    <dataset name="ASR 30km monthly means of analysis products"
+             ID="ds631.0_anl_monthly-AGG"
+             urlPath="ds631.0/21/best"
+             harvest="true">
+       <serviceName>all</serviceName>
+       <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+         <aggregation dimName="time" type="Union">
+           <scan location="/glade/p/rda/data/ds631.0/asr30km.anl.monthly/" suffix=".nc" subdirs="false"/>
+         </aggregation>
+       </netcdf>
+     </dataset>
 
-This dataset includes climate model output data from NCAR's Community Earth System Model (CESM) CMIP-5 runs, with output fields for the 3-D global atmosphere at six hourly intervals. A basic set of parameters is provided on 26 model hybrid level surfaces: specific humidity, temperature, wind components, and geopotential height to support regional modeling studies. Additional parameters are provided on single level grids to support analysis studies including surface temperature. Data are available in yearly time-series parameter archive files, and monthly synoptic time archive files. An interface is provided to give users the option to select parameter, temporal, and spatial subsets from the monthly synoptic time archive files. The data are a single 20th Century (1950-2005) simulation and four concomitant Representative Concentration Pathway (RCP) future scenarios spanning 2005-2100. These computer runs were completed in 2011.
-NOTE: All RCP2.6 data has been removed due to corrupted data caused by a model bug.
+    <dataset name="ASR 30km monthly means of forecast products"
+             ID="ds631.0_fcst_monthly-AGG"
+             urlPath="ds631.0/22/best"
+             harvest="true">
+       <serviceName>all</serviceName>
+       <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+         <aggregation dimName="time" type="Union">
+           <scan location="/glade/p/rda/data/ds631.0/asr30km.fcst3.monthly/" suffix=".nc" subdirs="false"/>
+         </aggregation>
+       </netcdf>
+     </dataset>
 
-     </documentation>
-   </metadata>
-    <filter>
-      <include wildcard="*.nc"/>
-    </filter>
- </datasetScan>
--->
+
 </catalog>
