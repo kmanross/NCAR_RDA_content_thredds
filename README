@@ -1,0 +1,5 @@
+This directory contains many of the configurations that the NCAR RDA THREDDS data server needs.  
+
+This is housed at GitHub in order to have an offsite copy of the catalogs which take a considerable amount of time to fine tune.  This will also allow for quick updating to mirrored TDS.
+
+klm
