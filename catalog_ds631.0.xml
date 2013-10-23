@@ -18,89 +18,89 @@
     <service name="uddc" serviceType="UDDC" base="/thredds/uddc/"/>
   </service>
 
-    <dataset name="Invariant variables for ASR 30 km products"
-             ID="ds631.0_invariant-AGG"
-             urlPath="ds631.0/3/best"
-             harvest="true">
-       <serviceName>all</serviceName>
-       <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
-         <aggregation dimName="time" type="Union">
-           <scan location="/glade/p/rda/data/ds631.0/asr30km.invariant/" suffix=".nc" subdirs="false"/>
-         </aggregation>
-       </netcdf>
-     </dataset>
+  <dataset name="Invariant variables for ASR 30 km products"
+           ID="ds631.0_invariant-AGG"
+           urlPath="ds631.0/3/best"
+           harvest="true">
+     <serviceName>all</serviceName>
+     <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+       <aggregation dimName="time" type="Union">
+         <scan location="/glade/p/rda/data/ds631.0/asr30km.invariant/" suffix=".nc" subdirs="false"/>
+       </aggregation>
+     </netcdf>
+   </dataset>
 
-    <dataset name="ASR 30 km 3d pressure level analysis"
-             ID="ds631.0_anl_3d-AGG"
-             urlPath="ds631.0/6/best"
-             harvest="true">
-       <serviceName>all</serviceName>
-       <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
-         <aggregation dimName="time" type="Union">
-           <scan location="/glade/p/rda/data/ds631.0/asr30km.anl.3D/" suffix=".nc" subdirs="false"/>
-         </aggregation>
-       </netcdf>
-     </dataset>
+  <dataset name="ASR 30 km 3d pressure level analysis"
+           ID="ds631.0_anl_3d-AGG"
+           urlPath="ds631.0/6/best"
+           harvest="true">
+     <serviceName>all</serviceName>
+     <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+       <aggregation dimName="time" type="Union">
+         <scan location="/glade/p/rda/data/ds631.0/asr30km.anl.3D/" suffix=".nc" subdirs="false"/>
+       </aggregation>
+     </netcdf>
+   </dataset>
 
-    <dataset name="ASR 30 km 2d surface analysis"
-             ID="ds631.0_anl_2d-AGG"
-             urlPath="ds631.0/9/best"
-             harvest="true">
-       <serviceName>all</serviceName>
-       <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
-         <aggregation dimName="time" type="Union">
-           <scan location="/glade/p/rda/data/ds631.0/asr30km.anl.2d/" suffix=".nc" subdirs="false"/>
-         </aggregation>
-       </netcdf>
-     </dataset>
+  <dataset name="ASR 30 km 2d surface analysis"
+           ID="ds631.0_anl_2d-AGG"
+           urlPath="ds631.0/9/best"
+           harvest="true">
+     <serviceName>all</serviceName>
+     <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+       <aggregation dimName="time" type="Union">
+         <scan location="/glade/p/rda/data/ds631.0/asr30km.anl.2d/" suffix=".nc" subdirs="false"/>
+       </aggregation>
+     </netcdf>
+   </dataset>
 
-    <dataset name="ASR 30 km 3d pressure level forecast"
-             ID="ds631.0_fcst_3d-AGG"
-             urlPath="ds631.0/14/best"
-             harvest="true">
-       <serviceName>all</serviceName>
-       <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
-         <aggregation dimName="time" type="Union">
-           <scan location="/glade/p/rda/data/ds631.0/asr30km.fcst3.3D/" suffix=".nc" subdirs="false"/>
-         </aggregation>
-       </netcdf>
-     </dataset>
+  <dataset name="ASR 30 km 3d pressure level forecast"
+           ID="ds631.0_fcst_3d-AGG"
+           urlPath="ds631.0/14/best"
+           harvest="true">
+     <serviceName>all</serviceName>
+     <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+       <aggregation dimName="time" type="Union">
+         <scan location="/glade/p/rda/data/ds631.0/asr30km.fcst3.3D/" suffix=".nc" subdirs="false"/>
+       </aggregation>
+     </netcdf>
+   </dataset>
 
-    <dataset name="ASR 30 km 2d surface forecast"
-             ID="ds631.0_fcst_2d-AGG"
-             urlPath="ds631.0/15/best"
-             harvest="true">
-       <serviceName>all</serviceName>
-       <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
-         <aggregation dimName="time" type="Union">
-           <scan location="/glade/p/rda/data/ds631.0/asr30km.fcst3.2d/" suffix=".nc" subdirs="false"/>
-         </aggregation>
-       </netcdf>
-     </dataset>
+  <dataset name="ASR 30 km 2d surface forecast"
+           ID="ds631.0_fcst_2d-AGG"
+           urlPath="ds631.0/15/best"
+           harvest="true">
+     <serviceName>all</serviceName>
+     <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+       <aggregation dimName="time" type="Union">
+         <scan location="/glade/p/rda/data/ds631.0/asr30km.fcst3.2d/" suffix=".nc" subdirs="false"/>
+       </aggregation>
+     </netcdf>
+   </dataset>
 
-    <dataset name="ASR 30km monthly means of analysis products"
-             ID="ds631.0_anl_monthly-AGG"
-             urlPath="ds631.0/21/best"
-             harvest="true">
-       <serviceName>all</serviceName>
-       <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
-         <aggregation dimName="time" type="Union">
-           <scan location="/glade/p/rda/data/ds631.0/asr30km.anl.monthly/" suffix=".nc" subdirs="false"/>
-         </aggregation>
-       </netcdf>
-     </dataset>
+  <dataset name="ASR 30km monthly means of analysis products"
+           ID="ds631.0_anl_monthly-AGG"
+           urlPath="ds631.0/21/best"
+           harvest="true">
+     <serviceName>all</serviceName>
+     <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+       <aggregation dimName="time" type="Union">
+         <scan location="/glade/p/rda/data/ds631.0/asr30km.anl.monthly/" suffix=".nc" subdirs="false"/>
+       </aggregation>
+     </netcdf>
+   </dataset>
 
-    <dataset name="ASR 30km monthly means of forecast products"
-             ID="ds631.0_fcst_monthly-AGG"
-             urlPath="ds631.0/22/best"
-             harvest="true">
-       <serviceName>all</serviceName>
-       <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
-         <aggregation dimName="time" type="Union">
-           <scan location="/glade/p/rda/data/ds631.0/asr30km.fcst3.monthly/" suffix=".nc" subdirs="false"/>
-         </aggregation>
-       </netcdf>
-     </dataset>
+  <dataset name="ASR 30km monthly means of forecast products"
+           ID="ds631.0_fcst_monthly-AGG"
+           urlPath="ds631.0/22/best"
+           harvest="true">
+     <serviceName>all</serviceName>
+     <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+       <aggregation dimName="time" type="Union">
+         <scan location="/glade/p/rda/data/ds631.0/asr30km.fcst3.monthly/" suffix=".nc" subdirs="false"/>
+       </aggregation>
+     </netcdf>
+   </dataset>
 
 
 </catalog>
