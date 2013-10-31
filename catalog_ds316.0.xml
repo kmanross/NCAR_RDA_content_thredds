@@ -27,22 +27,103 @@
              harvest="true">
        <serviceName>all</serviceName>
        <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
-         <aggregation dimName="time" type="Union">
-           <scan location="/glade/p/rda/data/ds316.0/20thC/ts/" suffix=".nc" subdirs="true"/>
-         </aggregation>
-       </netcdf>
+         <attribute name="title" type="string" value="20th Century Simulation Yearly Timeseries-Parameter Aggregations"/>
+         <aggregation type="Union">
+           <netcdf>
+             <aggregation dimName="time" type="joinExisting">
+                <scan location="/glade/p/rda/data/ds316.0/20thC/ts/PRECC" suffix=".nc" subdirs="true"/>
+             </aggregation>
+           </netcdf>
+           <netcdf>
+             <aggregation dimName="time" type="joinExisting">
+                <scan location="/glade/p/rda/data/ds316.0/20thC/ts/PRECL" suffix=".nc" subdirs="true"/>
+             </aggregation>
+           </netcdf>
+           <netcdf>
+             <aggregation dimName="time" type="joinExisting">
+                <scan location="/glade/p/rda/data/ds316.0/20thC/ts/PS" suffix=".nc" subdirs="true"/>
+             </aggregation>
+           </netcdf>
+           <netcdf>
+             <aggregation dimName="time" type="joinExisting">
+                <scan location="/glade/p/rda/data/ds316.0/20thC/ts/PSL" suffix=".nc" subdirs="true"/>
+             </aggregation>
+           </netcdf>
+           <netcdf>
+             <aggregation dimName="time" type="joinExisting">
+                <scan location="/glade/p/rda/data/ds316.0/20thC/ts/Q" suffix=".nc" subdirs="true"/>
+             </aggregation>
+           </netcdf>
+           <netcdf>
+             <aggregation dimName="time" type="joinExisting">
+                <scan location="/glade/p/rda/data/ds316.0/20thC/ts/T" suffix=".nc" subdirs="true"/>
+             </aggregation>
+           </netcdf>
+           <netcdf>
+             <aggregation dimName="time" type="joinExisting">
+                <scan location="/glade/p/rda/data/ds316.0/20thC/ts/TS" suffix=".nc" subdirs="true"/>
+             </aggregation>
+           </netcdf>
+           <netcdf>
+             <aggregation dimName="time" type="joinExisting">
+                <scan location="/glade/p/rda/data/ds316.0/20thC/ts/U" suffix=".nc" subdirs="true"/>
+             </aggregation>
+           </netcdf>
+           <netcdf>
+             <aggregation dimName="time" type="joinExisting">
+                <scan location="/glade/p/rda/data/ds316.0/20thC/ts/UBOT" suffix=".nc" subdirs="true"/>
+             </aggregation>
+             <variable name="UBOT">
+               <attribute name="long_name" value="Surface zonal wind"/>
+             </variable>
+           </netcdf>
+           <netcdf>
+             <aggregation dimName="time" type="joinExisting">
+                <scan location="/glade/p/rda/data/ds316.0/20thC/ts/V" suffix=".nc" subdirs="true"/>
+             </aggregation>
+           </netcdf>
+           <netcdf>
+             <aggregation dimName="time" type="joinExisting">
+                <scan location="/glade/p/rda/data/ds316.0/20thC/ts/VBOT" suffix=".nc" subdirs="true"/>
+             </aggregation>
+             <variable name="VBOT">
+               <attribute name="long_name" value="Surface meridional wind"/>
+             </variable>
+           </netcdf>
+           <netcdf>
+             <aggregation dimName="time" type="joinExisting">
+                <scan location="/glade/p/rda/data/ds316.0/20thC/ts/Z3" suffix=".nc" subdirs="true"/>
+             </aggregation>
+           </netcdf>
+           <!--netcdf>
+             <aggregation dimName="time" type="joinExisting">
+                <scan location="/glade/p/rda/data/ds316.0/20thC/ts/h3" suffix=".nc" subdirs="true"/>
+             </aggregation>
+           <netcdf-->
+          </aggregation>
+        </netcdf>
     </dataset>
 
     <dataset name="20th Century Simulation Monthly Synoptic Sort Aggregations"
-             ID="ds316.0_20th_syn_AGG"
-             urlPath="ds316.0/11/best"
-             harvest="true">
-       <serviceName>all</serviceName>
-       <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
-         <aggregation dimName="time" type="Union">
-           <scan location="/glade/p/rda/data/ds316.0/20thC/synop/" suffix=".nc" subdirs="true"/>
-         </aggregation>
-       </netcdf>
+                 ID="ds316.0_20th_syn_sl_AGG"
+                 urlPath="ds316.0/100/best"
+                 harvest="true">
+        <serviceName>all</serviceName>
+        <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+          <attribute name="title" type="string" value="20th Century Simulation Monthly Synoptic Sort Aggregations"/>
+          <aggregation type="Union">
+            <netcdf>
+              <aggregation dimName="time" type="joinExisting">
+                 <scan location="/glade/p/rda/data/ds316.0/20thC/synop/sl" suffix=".nc" subdirs="true"/>
+              </aggregation>
+            </netcdf>
+            <netcdf>
+              <aggregation dimName="time" type="joinExisting">
+                 <scan location="/glade/p/rda/data/ds316.0/20thC/synop/hyb" suffix=".nc" subdirs="true"/>
+              </aggregation>
+            </netcdf>
+          </aggregation>
+        </netcdf>
     </dataset>
 
   </dataset>
@@ -55,9 +136,81 @@
              harvest="true">
        <serviceName>all</serviceName>
        <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
-         <aggregation dimName="time" type="Union">
-           <scan location="/glade/p/rda/data/ds316.0/rcp4_5/ts/" suffix=".nc" subdirs="true"/>
-         </aggregation>
+         <attribute name="title" type="string" value="RCP 4.5 Yearly Timeseries-Parameter Aggregations"/>
+         <aggregation type="Union">
+           <netcdf>
+             <aggregation dimName="time" type="joinExisting">
+                <scan location="/glade/p/rda/data/ds316.0/rcp4_5/ts/PRECC" suffix=".nc" subdirs="true"/>
+             </aggregation>
+           </netcdf>
+           <netcdf>
+             <aggregation dimName="time" type="joinExisting">
+                <scan location="/glade/p/rda/data/ds316.0/rcp4_5/ts/PRECL" suffix=".nc" subdirs="true"/>
+             </aggregation>
+           </netcdf>
+           <netcdf>
+             <aggregation dimName="time" type="joinExisting">
+                <scan location="/glade/p/rda/data/ds316.0/rcp4_5/ts/PS" suffix=".nc" subdirs="true"/>
+             </aggregation>
+           </netcdf>
+           <netcdf>
+             <aggregation dimName="time" type="joinExisting">
+                <scan location="/glade/p/rda/data/ds316.0/rcp4_5/ts/PSL" suffix=".nc" subdirs="true"/>
+             </aggregation>
+           </netcdf>
+           <netcdf>
+             <aggregation dimName="time" type="joinExisting">
+                <scan location="/glade/p/rda/data/ds316.0/rcp4_5/ts/Q" suffix=".nc" subdirs="true"/>
+             </aggregation>
+           </netcdf>
+           <netcdf>
+             <aggregation dimName="time" type="joinExisting">
+                <scan location="/glade/p/rda/data/ds316.0/rcp4_5/ts/T" suffix=".nc" subdirs="true"/>
+             </aggregation>
+           </netcdf>
+           <netcdf>
+             <aggregation dimName="time" type="joinExisting">
+                <scan location="/glade/p/rda/data/ds316.0/rcp4_5/ts/TS" suffix=".nc" subdirs="true"/>
+             </aggregation>
+           </netcdf>
+           <netcdf>
+             <aggregation dimName="time" type="joinExisting">
+                <scan location="/glade/p/rda/data/ds316.0/rcp4_5/ts/U" suffix=".nc" subdirs="true"/>
+             </aggregation>
+           </netcdf>
+           <netcdf>
+             <aggregation dimName="time" type="joinExisting">
+                <scan location="/glade/p/rda/data/ds316.0/rcp4_5/ts/UBOT" suffix=".nc" subdirs="true"/>
+             </aggregation>
+             <variable name="UBOT">
+               <attribute name="long_name" value="Surface zonal wind"/>
+             </variable>
+           </netcdf>
+           <netcdf>
+             <aggregation dimName="time" type="joinExisting">
+                <scan location="/glade/p/rda/data/ds316.0/rcp4_5/ts/V" suffix=".nc" subdirs="true"/>
+             </aggregation>
+           </netcdf>
+           <netcdf>
+             <aggregation dimName="time" type="joinExisting">
+                <scan location="/glade/p/rda/data/ds316.0/rcp4_5/ts/VBOT" suffix=".nc" subdirs="true"/>
+             </aggregation>
+             <variable name="VBOT">
+               <attribute name="long_name" value="Surface meridional wind"/>
+             </variable>
+           </netcdf>
+           <netcdf>
+             <aggregation dimName="time" type="joinExisting">
+                <scan location="/glade/p/rda/data/ds316.0/rcp4_5/ts/Z3" suffix=".nc" subdirs="true"/>
+             </aggregation>
+           </netcdf>
+           <!--netcdf>
+             <aggregation dimName="time" type="joinExisting">
+                <scan location="/glade/p/rda/data/ds316.0/rcp4_5/ts/h3" suffix=".nc" subdirs="true"/>
+             </aggregation>
+           <netcdf-->
+          </aggregation>
+
        </netcdf>
     </dataset>
 
@@ -66,11 +219,21 @@
              urlPath="ds316.0/17/best"
              harvest="true">
        <serviceName>all</serviceName>
-       <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
-         <aggregation dimName="time" type="Union">
-           <scan location="/glade/p/rda/data/ds316.0/rcp4_5/synop/" suffix=".nc" subdirs="true"/>
-         </aggregation>
-       </netcdf>
+        <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+          <attribute name="title" type="string" value="RCP 4.5 Monthly Synoptic Sort Aggregations"/>
+          <aggregation type="Union">
+            <netcdf>
+              <aggregation dimName="time" type="joinExisting">
+                 <scan location="/glade/p/rda/data/ds316.0/20thC/synop/sl" suffix=".nc" subdirs="true"/>
+              </aggregation>
+            </netcdf>
+            <netcdf>
+              <aggregation dimName="time" type="joinExisting">
+                 <scan location="/glade/p/rda/data/ds316.0/20thC/synop/hyb" suffix=".nc" subdirs="true"/>
+              </aggregation>
+            </netcdf>
+          </aggregation>
+        </netcdf>
     </dataset>
 
   </dataset>
@@ -83,9 +246,81 @@
              harvest="true">
        <serviceName>all</serviceName>
        <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
-         <aggregation dimName="time" type="Union">
-           <scan location="/glade/p/rda/data/ds316.0/rcp6_0/ts/" suffix=".nc" subdirs="true"/>
-         </aggregation>
+         <attribute name="title" type="string" value="RCP 6.0 Yearly Timeseries-Parameter Aggregations"/>
+         <aggregation type="Union">
+           <netcdf>
+             <aggregation dimName="time" type="joinExisting">
+                <scan location="/glade/p/rda/data/ds316.0/rcp6_0/ts/PRECC" suffix=".nc" subdirs="true"/>
+             </aggregation>
+           </netcdf>
+           <netcdf>
+             <aggregation dimName="time" type="joinExisting">
+                <scan location="/glade/p/rda/data/ds316.0/rcp6_0/ts/PRECL" suffix=".nc" subdirs="true"/>
+             </aggregation>
+           </netcdf>
+           <netcdf>
+             <aggregation dimName="time" type="joinExisting">
+                <scan location="/glade/p/rda/data/ds316.0/rcp6_0/ts/PS" suffix=".nc" subdirs="true"/>
+             </aggregation>
+           </netcdf>
+           <netcdf>
+             <aggregation dimName="time" type="joinExisting">
+                <scan location="/glade/p/rda/data/ds316.0/rcp6_0/ts/PSL" suffix=".nc" subdirs="true"/>
+             </aggregation>
+           </netcdf>
+           <netcdf>
+             <aggregation dimName="time" type="joinExisting">
+                <scan location="/glade/p/rda/data/ds316.0/rcp6_0/ts/Q" suffix=".nc" subdirs="true"/>
+             </aggregation>
+           </netcdf>
+           <netcdf>
+             <aggregation dimName="time" type="joinExisting">
+                <scan location="/glade/p/rda/data/ds316.0/rcp6_0/ts/T" suffix=".nc" subdirs="true"/>
+             </aggregation>
+           </netcdf>
+           <netcdf>
+             <aggregation dimName="time" type="joinExisting">
+                <scan location="/glade/p/rda/data/ds316.0/rcp6_0/ts/TS" suffix=".nc" subdirs="true"/>
+             </aggregation>
+           </netcdf>
+           <netcdf>
+             <aggregation dimName="time" type="joinExisting">
+                <scan location="/glade/p/rda/data/ds316.0/rcp6_0/ts/U" suffix=".nc" subdirs="true"/>
+             </aggregation>
+           </netcdf>
+           <netcdf>
+             <aggregation dimName="time" type="joinExisting">
+                <scan location="/glade/p/rda/data/ds316.0/rcp6_0/ts/UBOT" suffix=".nc" subdirs="true"/>
+             </aggregation>
+             <variable name="UBOT">
+               <attribute name="long_name" value="Surface zonal wind"/>
+             </variable>
+           </netcdf>
+           <netcdf>
+             <aggregation dimName="time" type="joinExisting">
+                <scan location="/glade/p/rda/data/ds316.0/rcp6_0/ts/V" suffix=".nc" subdirs="true"/>
+             </aggregation>
+           </netcdf>
+           <netcdf>
+             <aggregation dimName="time" type="joinExisting">
+                <scan location="/glade/p/rda/data/ds316.0/rcp6_0/ts/VBOT" suffix=".nc" subdirs="true"/>
+             </aggregation>
+             <variable name="VBOT">
+               <attribute name="long_name" value="Surface meridional wind"/>
+             </variable>
+           </netcdf>
+           <netcdf>
+             <aggregation dimName="time" type="joinExisting">
+                <scan location="/glade/p/rda/data/ds316.0/rcp6_0/ts/Z3" suffix=".nc" subdirs="true"/>
+             </aggregation>
+           </netcdf>
+           <!--netcdf>
+             <aggregation dimName="time" type="joinExisting">
+                <scan location="/glade/p/rda/data/ds316.0/rcp6_0/ts/h3" suffix=".nc" subdirs="true"/>
+             </aggregation>
+           <netcdf-->
+          </aggregation>
+
        </netcdf>
     </dataset>
 
@@ -94,11 +329,21 @@
              urlPath="ds316.0/20/best"
              harvest="true">
        <serviceName>all</serviceName>
-       <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
-         <aggregation dimName="time" type="Union">
-           <scan location="/glade/p/rda/data/ds316.0/rcp6_0/synop/" suffix=".nc" subdirs="true"/>
-         </aggregation>
-       </netcdf>
+        <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+          <attribute name="title" type="string" value="RCP 6.0 Monthly Synoptic Sort Aggregations"/>
+          <aggregation type="Union">
+            <netcdf>
+              <aggregation dimName="time" type="joinExisting">
+                 <scan location="/glade/p/rda/data/ds316.0/20thC/synop/sl" suffix=".nc" subdirs="true"/>
+              </aggregation>
+            </netcdf>
+            <netcdf>
+              <aggregation dimName="time" type="joinExisting">
+                 <scan location="/glade/p/rda/data/ds316.0/20thC/synop/hyb" suffix=".nc" subdirs="true"/>
+              </aggregation>
+            </netcdf>
+          </aggregation>
+        </netcdf>
     </dataset>
 
   </dataset>
@@ -111,9 +356,81 @@
              harvest="true">
        <serviceName>all</serviceName>
        <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
-         <aggregation dimName="time" type="Union">
-           <scan location="/glade/p/rda/data/ds316.0/rcp8_5/ts/" suffix=".nc" subdirs="true"/>
-         </aggregation>
+         <attribute name="title" type="string" value="RCP 8.5 Yearly Timeseries-Parameter Aggregations"/>
+         <aggregation type="Union">
+           <netcdf>
+             <aggregation dimName="time" type="joinExisting">
+                <scan location="/glade/p/rda/data/ds316.0/rcp8_5/ts/PRECC" suffix=".nc" subdirs="true"/>
+             </aggregation>
+           </netcdf>
+           <netcdf>
+             <aggregation dimName="time" type="joinExisting">
+                <scan location="/glade/p/rda/data/ds316.0/rcp8_5/ts/PRECL" suffix=".nc" subdirs="true"/>
+             </aggregation>
+           </netcdf>
+           <netcdf>
+             <aggregation dimName="time" type="joinExisting">
+                <scan location="/glade/p/rda/data/ds316.0/rcp8_5/ts/PS" suffix=".nc" subdirs="true"/>
+             </aggregation>
+           </netcdf>
+           <netcdf>
+             <aggregation dimName="time" type="joinExisting">
+                <scan location="/glade/p/rda/data/ds316.0/rcp8_5/ts/PSL" suffix=".nc" subdirs="true"/>
+             </aggregation>
+           </netcdf>
+           <netcdf>
+             <aggregation dimName="time" type="joinExisting">
+                <scan location="/glade/p/rda/data/ds316.0/rcp8_5/ts/Q" suffix=".nc" subdirs="true"/>
+             </aggregation>
+           </netcdf>
+           <netcdf>
+             <aggregation dimName="time" type="joinExisting">
+                <scan location="/glade/p/rda/data/ds316.0/rcp8_5/ts/T" suffix=".nc" subdirs="true"/>
+             </aggregation>
+           </netcdf>
+           <netcdf>
+             <aggregation dimName="time" type="joinExisting">
+                <scan location="/glade/p/rda/data/ds316.0/rcp8_5/ts/TS" suffix=".nc" subdirs="true"/>
+             </aggregation>
+           </netcdf>
+           <netcdf>
+             <aggregation dimName="time" type="joinExisting">
+                <scan location="/glade/p/rda/data/ds316.0/rcp8_5/ts/U" suffix=".nc" subdirs="true"/>
+             </aggregation>
+           </netcdf>
+           <netcdf>
+             <aggregation dimName="time" type="joinExisting">
+                <scan location="/glade/p/rda/data/ds316.0/rcp8_5/ts/UBOT" suffix=".nc" subdirs="true"/>
+             </aggregation>
+             <variable name="UBOT">
+               <attribute name="long_name" value="Surface zonal wind"/>
+             </variable>
+           </netcdf>
+           <netcdf>
+             <aggregation dimName="time" type="joinExisting">
+                <scan location="/glade/p/rda/data/ds316.0/rcp8_5/ts/V" suffix=".nc" subdirs="true"/>
+             </aggregation>
+           </netcdf>
+           <netcdf>
+             <aggregation dimName="time" type="joinExisting">
+                <scan location="/glade/p/rda/data/ds316.0/rcp8_5/ts/VBOT" suffix=".nc" subdirs="true"/>
+             </aggregation>
+             <variable name="VBOT">
+               <attribute name="long_name" value="Surface meridional wind"/>
+             </variable>
+           </netcdf>
+           <netcdf>
+             <aggregation dimName="time" type="joinExisting">
+                <scan location="/glade/p/rda/data/ds316.0/rcp8_5/ts/Z3" suffix=".nc" subdirs="true"/>
+             </aggregation>
+           </netcdf>
+           <!--netcdf>
+             <aggregation dimName="time" type="joinExisting">
+                <scan location="/glade/p/rda/data/ds316.0/rcp8_5/ts/h3" suffix=".nc" subdirs="true"/>
+             </aggregation>
+           <netcdf-->
+          </aggregation>
+
        </netcdf>
     </dataset>
 
@@ -122,11 +439,21 @@
              urlPath="ds316.0/23/best"
              harvest="true">
        <serviceName>all</serviceName>
-       <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
-         <aggregation dimName="time" type="Union">
-           <scan location="/glade/p/rda/data/ds316.0/rcp8_5/synop/" suffix=".nc" subdirs="true"/>
-         </aggregation>
-       </netcdf>
+        <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+          <attribute name="title" type="string" value="RCP 8.5 Monthly Synoptic Sort Aggregations"/>
+          <aggregation type="Union">
+            <netcdf>
+              <aggregation dimName="time" type="joinExisting">
+                 <scan location="/glade/p/rda/data/ds316.0/20thC/synop/sl" suffix=".nc" subdirs="true"/>
+              </aggregation>
+            </netcdf>
+            <netcdf>
+              <aggregation dimName="time" type="joinExisting">
+                 <scan location="/glade/p/rda/data/ds316.0/20thC/synop/hyb" suffix=".nc" subdirs="true"/>
+              </aggregation>
+            </netcdf>
+          </aggregation>
+        </netcdf>
     </dataset>
 
   </dataset>
