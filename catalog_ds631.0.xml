@@ -24,7 +24,7 @@
            harvest="true">
      <serviceName>all</serviceName>
      <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
-       <aggregation dimName="time" type="Union">
+       <aggregation dimName="time" type="joinExisting">
          <scan location="/glade/p/rda/data/ds631.0/asr30km.invariant/" suffix=".nc" subdirs="false"/>
        </aggregation>
      </netcdf>
@@ -36,9 +36,17 @@
            harvest="true">
      <serviceName>all</serviceName>
      <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
-       <aggregation dimName="time" type="Union">
+       <aggregation dimName="time" type="joinExisting">
          <scan location="/glade/p/rda/data/ds631.0/asr30km.anl.3D/" suffix=".nc" subdirs="false"/>
        </aggregation>
+       <variable name="PRES" shape="num_metgrid_levels" type="float">
+         <attribute name="units" value="Pa" />
+         <attribute name="long_name" value="Pressure levels" />
+         <attribute name="positive" value="down" />
+         <attribute name="_CoordinateAxisType" value="GeoZ" />
+         <attribute name="_CoordinateAliasForDimension" value="num_metgrid_levels" />
+         <attribute name="_CoordinateZisPositive" value="down" />
+       </variable>
      </netcdf>
    </dataset>
 
@@ -48,9 +56,18 @@
            harvest="true">
      <serviceName>all</serviceName>
      <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
-       <aggregation dimName="time" type="Union">
+       <aggregation dimName="time" type="joinExisting">
          <scan location="/glade/p/rda/data/ds631.0/asr30km.anl.2d/" suffix=".nc" subdirs="false"/>
        </aggregation>
+       <variable name="ZS" shape="soil_layers_stag" type="float">
+         <attribute name="units" value="m" />
+         <attribute name="long_name" value="DEPTHS OF CENTERS OF SOIL LAYERS" />
+         <attribute name="positive" value="down" />
+         <attribute name="_CoordinateAxisType" value="GeoZ" />
+         <attribute name="_CoordinateAliasForDimension" value="soil_layers_stag" />
+         <attribute name="_CoordinateZisPositive" value="down" />
+       </variable>
+
      </netcdf>
    </dataset>
 
@@ -60,9 +77,17 @@
            harvest="true">
      <serviceName>all</serviceName>
      <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
-       <aggregation dimName="time" type="Union">
+       <aggregation dimName="time" type="joinExisting">
          <scan location="/glade/p/rda/data/ds631.0/asr30km.fcst3.3D/" suffix=".nc" subdirs="false"/>
        </aggregation>
+       <variable name="PRES" shape="num_metgrid_levels" type="float">
+         <attribute name="units" value="Pa" />
+         <attribute name="long_name" value="Pressure levels" />
+         <attribute name="positive" value="down" />
+         <attribute name="_CoordinateAxisType" value="GeoZ" />
+         <attribute name="_CoordinateAliasForDimension" value="num_metgrid_levels" />
+         <attribute name="_CoordinateZisPositive" value="down" />
+       </variable>
      </netcdf>
    </dataset>
 
@@ -72,9 +97,17 @@
            harvest="true">
      <serviceName>all</serviceName>
      <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
-       <aggregation dimName="time" type="Union">
+       <aggregation dimName="time" type="joinExisting">
          <scan location="/glade/p/rda/data/ds631.0/asr30km.fcst3.2d/" suffix=".nc" subdirs="false"/>
        </aggregation>
+       <variable name="ZS" shape="soil_layers_stag" type="float">
+         <attribute name="units" value="m" />
+         <attribute name="long_name" value="DEPTHS OF CENTERS OF SOIL LAYERS" />
+         <attribute name="positive" value="down" />
+         <attribute name="_CoordinateAxisType" value="GeoZ" />
+         <attribute name="_CoordinateAliasForDimension" value="soil_layers_stag" />
+         <attribute name="_CoordinateZisPositive" value="down" />
+       </variable>
      </netcdf>
    </dataset>
 
@@ -84,7 +117,7 @@
            harvest="true">
      <serviceName>all</serviceName>
      <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
-       <aggregation dimName="time" type="Union">
+       <aggregation dimName="time" type="joinExisting">
          <scan location="/glade/p/rda/data/ds631.0/asr30km.anl.monthly/" suffix=".nc" subdirs="false"/>
        </aggregation>
      </netcdf>
@@ -96,7 +129,7 @@
            harvest="true">
      <serviceName>all</serviceName>
      <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
-       <aggregation dimName="time" type="Union">
+       <aggregation dimName="time" type="joinExisting">
          <scan location="/glade/p/rda/data/ds631.0/asr30km.fcst3.monthly/" suffix=".nc" subdirs="false"/>
        </aggregation>
      </netcdf>
