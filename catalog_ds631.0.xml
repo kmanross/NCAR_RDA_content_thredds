@@ -121,7 +121,7 @@
       <aggregation type="Union">
       <netcdf>
        <aggregation dimName="time" type="joinExisting">
-         <scan location="/data/glade/p/rda/data/ds631.0/asr30km.anl.monthly/" regExp="ASR30km\.anl\.2d\.mon\.[0-9]+.nc" subdirs="false"/>
+         <scan location="/glade/p/rda/data/ds631.0/asr30km.anl.monthly/" regExp="ASR30km\.anl\.2d\.mon\.[0-9]+.nc" subdirs="false"/>
        </aggregation>
        <variable name="ZS" shape="soil_layers_stag" type="float">
          <attribute name="units" value="m" />
@@ -134,7 +134,7 @@
       </netcdf>
       <netcdf>
        <aggregation dimName="time" type="joinExisting">
-         <scan location="/data/glade/p/rda/data/ds631.0/asr30km.anl.monthly/" regExp="ASR30km\.anl\.3D\.mon\.[0-9]+.nc" subdirs="false"/>
+         <scan location="/glade/p/rda/data/ds631.0/asr30km.anl.monthly/" regExp="ASR30km\.anl\.3D\.mon\.[0-9]+.nc" subdirs="false"/>
        </aggregation>
        <variable name="PRES" shape="num_metgrid_levels" type="float">
          <attribute name="units" value="Pa" />
@@ -158,7 +158,7 @@
       <aggregation type="Union">
       <netcdf>
        <aggregation dimName="time" type="joinExisting">
-         <scan location="/data/glade/p/rda/data/ds631.0/asr30km.fcst3.monthly/" regExp="ASR30km\.fcst3\.2d\.mon\.[0-9]+.nc" subdirs="false"/>
+         <scan location="/glade/p/rda/data/ds631.0/asr30km.fcst3.monthly/" regExp="ASR30km\.fcst3\.2d\.mon\.[0-9]+.nc" subdirs="false"/>
        </aggregation>
        <variable name="ZS" shape="soil_layers_stag" type="float">
          <attribute name="units" value="m" />
@@ -171,7 +171,7 @@
       </netcdf>
       <netcdf>
        <aggregation dimName="time" type="joinExisting">
-         <scan location="/data/glade/p/rda/data/ds631.0/asr30km.fcst3.monthly/" regExp="ASR30km\.fcst3\.3D\.mon\.[0-9]+.nc" subdirs="false"/>
+         <scan location="/glade/p/rda/data/ds631.0/asr30km.fcst3.monthly/" regExp="ASR30km\.fcst3\.3D\.mon\.[0-9]+.nc" subdirs="false"/>
        </aggregation>
        <variable name="PRES" shape="num_metgrid_levels" type="float">
          <attribute name="units" value="Pa" />
