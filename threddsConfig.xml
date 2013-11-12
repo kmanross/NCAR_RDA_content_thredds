@@ -4,11 +4,10 @@
   <!-- all options are commented out in standard install - meaning use default values -->
   <!-- see http://www.unidata.ucar.edu/projects/THREDDS/tech/reference/ThreddsConfigXMLFile.html -->
   <serverInformation>
-    <name>Initial TDS Installation</name>
+    <name>NCAR RDA TDS Installation</name>
     <!--<logoUrl>/thredds/threddsIcon.gif</logoUrl>-->
     <!--logoUrl>/thredds/newlogo_trans_small.png</logoUrl-->
-    <!--logoUrl></logoUrl-->
-    <!--logoAltText>Initial TDS Installation</logoAltText-->
+    <logoAltText>NCAR RDA TDS Installation</logoAltText>
 
     <abstract>Scientific Data</abstract>
     <keywords>meteorology, atmosphere, climate, ocean, earth science</keywords>
@@ -85,14 +84,11 @@
   </nj22Config>
   -->
 
-  <!--
-  CDM uses the DiskCache directory to store temporary files, like uncompressed files.
   <DiskCache>
     <alwaysUse>false</alwaysUse>
     <scour>1 hour</scour>
     <maxSize>1 Gb</maxSize>
   </DiskCache>
-  -->
 
   <!--
   Caching open NetcdfFile objects.
@@ -126,7 +122,7 @@
   </GribIndex>
 
   <AggregationCache>
-    <scour>5 hours</scour>
+    <scour>-1</scour>
     <maxAge>90 days</maxAge>
   </AggregationCache>
 
@@ -142,13 +138,13 @@
   -->
   <NetcdfSubsetService>
     <allow>true</allow>
-    <scour>10 min</scour>
+    <scour>30 min</scour>
     <maxAge>-1 min</maxAge>
   </NetcdfSubsetService>
 
   <Opendap>
-    <ascLimit>50</ascLimit>
-    <binLimit>500</binLimit>
+    <ascLimit>5</ascLimit>
+    <binLimit>50</binLimit>
     <serverVersion>opendap/3.7</serverVersion>
   </Opendap>
   
