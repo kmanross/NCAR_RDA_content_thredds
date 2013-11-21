@@ -18,14 +18,222 @@
     <service name="uddc" serviceType="UDDC" base="/thredds/uddc/"/>
   </service>
 
+   <dataset name="RDA Dataset Aggregations">
+    <catalogRef xlink:href="catalog_ds083.2.xml" xlink:title="ds083.2" name="" />
+    <catalogRef xlink:href="catalog_ds131.1.xml" xlink:title="ds131.1" name="" />
+    <catalogRef xlink:href="catalog_ds093.1.xml" xlink:title="ds093.1" name="" />
+    <catalogRef xlink:href="catalog_ds094.1.xml" xlink:title="ds094.1" name="" />
+    <catalogRef xlink:href="catalog_ds277.6.xml" xlink:title="ds277.6" name="" />
+    <catalogRef xlink:href="catalog_ds285.3.xml" xlink:title="ds285.3" name="" />
+    <catalogRef xlink:href="catalog_ds316.0.xml" xlink:title="ds316.0" name="" />
+    <catalogRef xlink:href="catalog_ds502.0.xml" xlink:title="ds502.0" name="" />
+    <catalogRef xlink:href="catalog_ds629.1.xml" xlink:title="ds629.1" name="" />
+    <catalogRef xlink:href="catalog_ds629.2.xml" xlink:title="ds629.2" name="" />
+    <catalogRef xlink:href="catalog_ds629.3.xml" xlink:title="ds629.3" name="" />
+    <catalogRef xlink:href="catalog_ds629.5.xml" xlink:title="ds629.5" name="" />
+    <catalogRef xlink:href="catalog_ds629.6.xml" xlink:title="ds629.6" name="" />
+    <catalogRef xlink:href="catalog_ds631.0.xml" xlink:title="ds631.0" name="" />
 
-    <datasetScan name="RDA Dataset Files" ID="RDADatasets" path="RDADatasets" location="/glade/p/rda/data/">
+    <catalogRef xlink:href="catalog_ds461.0.xml" xlink:title="ds461.0" name="" />
+  </dataset>
+
+
+
+    <dataset name="RDA Dataset Files">
         <metadata inherited="true">
             <serviceName>all</serviceName>
-            <!--publisher>
-                <name vocabulary="DIF">USGS/ER/WHCMSC/Dr. Richard P. Signell</name>
-                <contact url="http://www.usgs.gov/" email="rsignell@usgs.gov"/>
-            </publisher-->
+            <authority>edu.ucar.rda</authority>
+            <publisher>
+              <name vocabulary="DIF">NCAR/RDA</name>
+              <contact url="http://rda.ucar.edu/" email="dssweb@ucar.edu" />
+            </publisher>
+        </metadata>
+
+     <datasetScan name="ds083.2" 
+                  path="RDADatasets/ds083.2" 
+                  location="/glade/p/rda/data/ds083.2">
+     <metadata inherited="true">
+      <serviceName>all</serviceName>
+      <dataFormat>GRIB-1</dataFormat>
+      <dataType>GRID</dataType>
+      <documentation type="Rights">Freely Available</documentation>
+      <documentation xlink:href="http://www.emc.ncep.noaa.gov/modelinfo/index.html" xlink:title="NCEP Model documentation" />
+      <documentation type="summary">Blah
+      </documentation>
+      <creator>
+        <name vocabulary="DIF">DOC/NOAA/NWS/NCEP</name>
+        <contact url="http://www.ncep.noaa.gov/" email="http://www.ncep.noaa.gov/mail_liaison.shtml" />
+      </creator>
+      <keywords>Numerical Weather Prediction</keywords>
+      <keywords>NCEP</keywords>
+      <keywords>Model data</keywords>
+      <keywords>GFS</keywords>
+      <keywords>GDAS</keywords>
+      <keywords>FNL</keywords>
+    </metadata>
+        <filter>
+            <exclude wildcard="*.html"/>
+            <exclude wildcard="grib2" atomic="false" collection="true"/>
+        </filter>
+        <addDatasetSize/>
+    </datasetScan>
+     <datasetScan name="ds093.1" 
+                  path="RDADatasets/ds093.1" 
+                  location="/glade/p/rda/data/ds093.1">
+        <metadata inherited="true">
+            <serviceName>all</serviceName>
+        </metadata>
+        <filter>
+            <exclude wildcard="*.html"/>
+        </filter>
+        <addDatasetSize/>
+    </datasetScan>
+     <datasetScan name="ds094.1" 
+                  path="RDADatasets/ds094.1" 
+                  location="/glade/p/rda/data/ds094.1">
+        <metadata inherited="true">
+            <serviceName>all</serviceName>
+        </metadata>
+        <filter>
+            <exclude wildcard="*.html"/>
+        </filter>
+        <addDatasetSize/>
+    </datasetScan>
+     <datasetScan name="ds131.1" 
+                  path="RDADatasets/ds131.1" 
+                  location="/glade/p/rda/data/ds131.1">
+        <metadata inherited="true">
+            <serviceName>all</serviceName>
+        </metadata>
+        <filter>
+            <exclude wildcard="*.html"/>
+            <exclude wildcard="timeseries" atomic="false" collection="true"/>
+            <exclude wildcard="data" atomic="false" collection="true"/>
+        </filter>
+        <addDatasetSize/>
+    </datasetScan>
+     <datasetScan name="ds277.6" 
+                  path="RDADatasets/ds277.6" 
+                  location="/glade/p/rda/data/ds277.6">
+        <metadata inherited="true">
+            <serviceName>all</serviceName>
+        </metadata>
+        <filter>
+            <exclude wildcard="*.html"/>
+        </filter>
+        <addDatasetSize/>
+    </datasetScan>
+     <datasetScan name="ds285.3" 
+                  path="RDADatasets/ds285.3" 
+                  location="/glade/p/rda/data/ds285.3">
+        <metadata inherited="true">
+            <serviceName>all</serviceName>
+        </metadata>
+        <filter>
+            <exclude wildcard="*.html"/>
+        </filter>
+        <addDatasetSize/>
+    </datasetScan>
+     <datasetScan name="ds316.0" 
+                  path="RDADatasets/ds316.0" 
+                  location="/glade/p/rda/data/ds316.0">
+        <metadata inherited="true">
+            <serviceName>all</serviceName>
+        </metadata>
+        <filter>
+            <exclude wildcard="*.html"/>
+        </filter>
+        <addDatasetSize/>
+    </datasetScan>
+     <datasetScan name="ds502.0" 
+                  path="RDADatasets/ds502.0" 
+                  location="/glade/p/rda/data/ds502.0">
+        <metadata inherited="true">
+            <serviceName>all</serviceName>
+        </metadata>
+        <filter>
+            <exclude wildcard="*.html"/>
+        </filter>
+        <addDatasetSize/>
+    </datasetScan>
+     <datasetScan name="ds629.1" 
+                  path="RDADatasets/ds629.1" 
+                  location="/glade/p/rda/data/ds629.1">
+        <metadata inherited="true">
+            <serviceName>all</serviceName>
+        </metadata>
+        <filter>
+            <exclude wildcard="*.html"/>
+        </filter>
+        <addDatasetSize/>
+    </datasetScan>
+     <datasetScan name="ds629.2" 
+                  path="RDADatasets/ds629.2" 
+                  location="/glade/p/rda/data/ds629.2">
+        <metadata inherited="true">
+            <serviceName>all</serviceName>
+        </metadata>
+        <filter>
+            <exclude wildcard="*.html"/>
+        </filter>
+        <addDatasetSize/>
+    </datasetScan>
+     <datasetScan name="ds629.3" 
+                  path="RDADatasets/ds629.3" 
+                  location="/glade/p/rda/data/ds629.3">
+        <metadata inherited="true">
+            <serviceName>all</serviceName>
+        </metadata>
+        <filter>
+            <exclude wildcard="*.html"/>
+        </filter>
+        <addDatasetSize/>
+    </datasetScan>
+     <datasetScan name="ds629.5" 
+                  path="RDADatasets/ds629.5" 
+                  location="/glade/p/rda/data/ds629.5">
+        <metadata inherited="true">
+            <serviceName>all</serviceName>
+        </metadata>
+        <filter>
+            <exclude wildcard="*.html"/>
+        </filter>
+        <addDatasetSize/>
+    </datasetScan>
+     <datasetScan name="ds629.6" 
+                  path="RDADatasets/ds629.6" 
+                  location="/glade/p/rda/data/ds629.6">
+        <metadata inherited="true">
+            <serviceName>all</serviceName>
+        </metadata>
+        <filter>
+            <exclude wildcard="*.html"/>
+        </filter>
+        <addDatasetSize/>
+    </datasetScan>
+     <datasetScan name="ds631.0" 
+                  path="RDADatasets/ds631.0" 
+                  location="/glade/p/rda/data/ds631.0">
+        <metadata inherited="true">
+            <serviceName>all</serviceName>
+        </metadata>
+        <filter>
+            <exclude wildcard="*.html"/>
+        </filter>
+        <addDatasetSize/>
+    </datasetScan>
+
+    </dataset>
+
+    <!--datasetScan name="RDA Dataset Files" ID="RDADatasets" path="RDADatasets" location="/glade/p/rda/data/">
+        <metadata inherited="true">
+            <serviceName>all</serviceName>
+            <authority>edu.ucar.rda</authority>
+            <publisher>
+              <name vocabulary="DIF">NCAR/RDA</name>
+              <contact url="http://rda.ucar.edu/" email="dssweb@ucar.edu" />
+            </publisher>
+
         </metadata>
         <filter>
             <include wildcard="ds083.2" atomic="false" collection="false"/>
@@ -74,20 +282,14 @@
             <exclude wildcard=".htaccess.keep"/>
             <exclude wildcard=".test"/>
             <exclude wildcard=".writable"/>
-            <!-- for ds083.2 -->
             <exclude wildcard="grib2" atomic="false" collection="true"/>
-            <!-- for ds316.0 -->
             <exclude wildcard="rcp2_6" atomic="false" collection="true"/>
-            <!-- for ds502.0 -->
             <exclude wildcard="big_endian" atomic="false" collection="true"/>
         </filter>
         <sort>
             <lexigraphicByName increasing="true"/>
         </sort>
         <addDatasetSize/>
-    </datasetScan>
-
-
-    <catalogRef name="RDA Dataset Aggregations" xlink:href="aggregations.xml" xlink:title="RDA Dataset Aggregations" />
+    </datasetScan-->
 
 </catalog>
