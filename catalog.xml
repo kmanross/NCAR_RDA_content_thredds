@@ -42,188 +42,212 @@
     <dataset name="RDA Dataset Files">
         <metadata inherited="true">
             <serviceName>all</serviceName>
-            <authority>edu.ucar.rda</authority>
-            <publisher>
-              <name vocabulary="DIF">NCAR/RDA</name>
-              <contact url="http://rda.ucar.edu/" email="dssweb@ucar.edu" />
-            </publisher>
         </metadata>
 
      <datasetScan name="ds083.2" 
                   path="RDADatasets/ds083.2" 
                   location="/glade/p/rda/data/ds083.2">
-     <metadata inherited="true">
-      <serviceName>all</serviceName>
-      <dataFormat>GRIB-1</dataFormat>
-      <dataType>GRID</dataType>
-      <documentation type="Rights">Freely Available</documentation>
-      <documentation xlink:href="http://www.emc.ncep.noaa.gov/modelinfo/index.html" xlink:title="NCEP Model documentation" />
-      <documentation type="summary">Blah
-      </documentation>
-      <creator>
-        <name vocabulary="DIF">DOC/NOAA/NWS/NCEP</name>
-        <contact url="http://www.ncep.noaa.gov/" email="http://www.ncep.noaa.gov/mail_liaison.shtml" />
-      </creator>
-      <keywords>Numerical Weather Prediction</keywords>
-      <keywords>NCEP</keywords>
-      <keywords>Model data</keywords>
-      <keywords>GFS</keywords>
-      <keywords>GDAS</keywords>
-      <keywords>FNL</keywords>
-    </metadata>
+<!--metadata xlink:href="http://rda.ucar.edu/metadata/thredds/temp/metadata_ds083.2.xml"
+   xlink:title="ds083.2 Metadata" /-->
+         <metadata inherited="true">
+          <serviceName>all</serviceName>
+          <dataFormat>GRIB-1</dataFormat>
+          <dataType>GRID</dataType>
+          <documentation type="Rights">Freely Available</documentation>
+          <documentation xlink:href="http://www.emc.ncep.noaa.gov/modelinfo/index.html" xlink:title="NCEP Model documentation" />
+          <documentation type="summary">
+NCEP FNL (Final) Operational Global Analysis data are on 1.0x1.0 degree grids prepared operationally every six hours. This product is from the Global Data Assimilation System (GDAS), which continuously collects observational data from the Global Telecommunications System (GTS), and other sources, for many analyses. The FNLs are made with the same model which NCEP uses in the Global Forecast System (GFS), but the FNLs are prepared about an hour or so after the GFS is initialized. The FNLs are delayed so that more observational data can be used. The GFS is run earlier in support of time critical forecast needs, and uses the FNL from the previous 6 hour cycle as part of its initialization.
+The analyses are available on the surface, at 26 mandatory (and other pressure) levels from 1000mb to 10mb, in the surface boundary layer and at some sigma layers, the tropopause and a few others. Parameters include surface pressure, sea level pressure, geopotential height, temperature, sea surface temperature, soil values, ice cover, relative humidity, u- and v- winds, vertical motion, vorticity and ozone.
+
+The archive time series is continuously extended to a near-current date. It is not maintained in real-time.
+          </documentation>
+          <documentation xlink:href="http://rda.ucar.edu/datasets/ds083.2/"
+                         xlink:title="NCAR RDA NCEP FNL Operational Model Global Tropospheric Analyses (ds083.2)"/>
+          <creator>
+            <name vocabulary="DIF">DOC/NOAA/NWS/NCEP</name>
+            <contact url="http://www.ncep.noaa.gov/" email="http://www.ncep.noaa.gov/mail_liaison.shtml" />
+          </creator>
+          <authority>edu.ucar.rda</authority>
+          <publisher>
+            <name vocabulary="DIF">NCAR/RDA</name>
+            <contact url="http://rda.ucar.edu/" email="dssweb@ucar.edu" />
+          </publisher>
+          <keywords>Numerical Weather Prediction</keywords>
+          <keywords>NCEP</keywords>
+          <keywords>Model data</keywords>
+          <keywords>GFS</keywords>
+          <keywords>GDAS</keywords>
+          <keywords>FNL</keywords>
+        </metadata>
         <filter>
             <exclude wildcard="*.html"/>
             <exclude wildcard="grib2" atomic="false" collection="true"/>
         </filter>
         <addDatasetSize/>
-    </datasetScan>
+     </datasetScan>
      <datasetScan name="ds093.1" 
                   path="RDADatasets/ds093.1" 
                   location="/glade/p/rda/data/ds093.1">
-        <metadata inherited="true">
-            <serviceName>all</serviceName>
-        </metadata>
-        <filter>
-            <exclude wildcard="*.html"/>
-        </filter>
-        <addDatasetSize/>
-    </datasetScan>
+         <metadata inherited="true">
+             <serviceName>all</serviceName>
+         </metadata>
+         <filter>
+             <exclude wildcard="*.html"/>
+         </filter>
+         <addDatasetSize/>
+     </datasetScan>
      <datasetScan name="ds094.1" 
                   path="RDADatasets/ds094.1" 
                   location="/glade/p/rda/data/ds094.1">
-        <metadata inherited="true">
-            <serviceName>all</serviceName>
-        </metadata>
-        <filter>
-            <exclude wildcard="*.html"/>
-        </filter>
-        <addDatasetSize/>
-    </datasetScan>
+         <metadata inherited="true">
+             <serviceName>all</serviceName>
+         </metadata>
+         <filter>
+             <exclude wildcard="*.html"/>
+         </filter>
+         <addDatasetSize/>
+     </datasetScan>
      <datasetScan name="ds131.1" 
                   path="RDADatasets/ds131.1" 
                   location="/glade/p/rda/data/ds131.1">
-        <metadata inherited="true">
-            <serviceName>all</serviceName>
-        </metadata>
-        <filter>
-            <exclude wildcard="*.html"/>
-            <exclude wildcard="timeseries" atomic="false" collection="true"/>
-            <exclude wildcard="data" atomic="false" collection="true"/>
-        </filter>
-        <addDatasetSize/>
-    </datasetScan>
+         <metadata inherited="true">
+         <serviceName>all</serviceName>
+          <dataFormat>GRIB-1</dataFormat>
+          <dataType>GRID</dataType>
+          <documentation type="Rights">Freely Available</documentation>          <documentation xlink:href="http://rda.ucar.edu/datasets/ds131.1/" xlink:title="NCAR RDA - NOAA-CIRES Twentieth Century Global Reanalysis Version II (ds131.1)" />
+          <documentation type="summary">The Twentieth Century Reanalysis Project, supported by the Earth System Research Laboratory Physical Sciences Division from NOAA and the University of Colorado CIRES/Climate Diagnostics Center, is an effort to produce a global reanalysis dataset spanning a portion of the nineteenth century and the entire twentieth century (1871 - near present), assimilating only surface observations of synoptic pressure, monthly sea surface temperature and sea ice distribution. Products include 6-hourly ensemble mean and spread analysis fields on a 2x2 degree global lat/lon grid, and 3 and 6-hourly ensemble mean and spread forecast (first guess) fields on a global Gaussian T-62 grid. Fields are accessible in yearly time series (1 file/parameter) and monthly synoptic time (all parameters/synoptic hour) files. Ensemble grids, spectral coefficients, and other information will available by offline request in the future.
+          </documentation>
+          <contributor role="computation">National Energy Research Scientific Computing Center managed by Lawrence Berkeley National Laboratory and of the Oak Ridge Leadership Computing Facility at Oak Ridge National Laboratory
+          </contributor>
+          <creator>
+            <name vocabulary="DIF">DOC/NOAA/ESRL</name>
+            <contact url="http://www.esrl.noaa.gov/psd/data/20thC_Rean/" email="esrl.psd.data@noaa.gov" />
+          </creator>
+          <keywords>Numerical Weather Prediction</keywords>
+          <keywords>NCEP</keywords>
+          <keywords>Model data</keywords>
+          <keywords>Reanalysis</keywords>
+          <keywords>Twentieth Century</keywords>
+         </metadata>
+         <filter>
+             <exclude wildcard="*.html"/>
+             <exclude wildcard="timeseries" atomic="false" collection="true"/>
+             <exclude wildcard="data" atomic="false" collection="true"/>
+         </filter>
+         <addDatasetSize/>
+     </datasetScan>
      <datasetScan name="ds277.6" 
                   path="RDADatasets/ds277.6" 
                   location="/glade/p/rda/data/ds277.6">
-        <metadata inherited="true">
-            <serviceName>all</serviceName>
-        </metadata>
-        <filter>
-            <exclude wildcard="*.html"/>
-        </filter>
-        <addDatasetSize/>
-    </datasetScan>
+         <metadata inherited="true">
+             <serviceName>all</serviceName>
+         </metadata>
+         <filter>
+             <exclude wildcard="*.html"/>
+         </filter>
+         <addDatasetSize/>
+     </datasetScan>
      <datasetScan name="ds285.3" 
                   path="RDADatasets/ds285.3" 
                   location="/glade/p/rda/data/ds285.3">
-        <metadata inherited="true">
-            <serviceName>all</serviceName>
-        </metadata>
-        <filter>
-            <exclude wildcard="*.html"/>
-        </filter>
-        <addDatasetSize/>
-    </datasetScan>
+         <metadata inherited="true">
+             <serviceName>all</serviceName>
+         </metadata>
+         <filter>
+             <exclude wildcard="*.html"/>
+         </filter>
+         <addDatasetSize/>
+     </datasetScan>
      <datasetScan name="ds316.0" 
                   path="RDADatasets/ds316.0" 
                   location="/glade/p/rda/data/ds316.0">
-        <metadata inherited="true">
-            <serviceName>all</serviceName>
-        </metadata>
-        <filter>
-            <exclude wildcard="*.html"/>
-        </filter>
-        <addDatasetSize/>
-    </datasetScan>
+         <metadata inherited="true">
+             <serviceName>all</serviceName>
+         </metadata>
+         <filter>
+             <exclude wildcard="*.html"/>
+         </filter>
+         <addDatasetSize/>
+     </datasetScan>
      <datasetScan name="ds502.0" 
                   path="RDADatasets/ds502.0" 
                   location="/glade/p/rda/data/ds502.0">
-        <metadata inherited="true">
-            <serviceName>all</serviceName>
-        </metadata>
-        <filter>
-            <exclude wildcard="*.html"/>
-        </filter>
-        <addDatasetSize/>
-    </datasetScan>
+         <metadata inherited="true">
+             <serviceName>all</serviceName>
+         </metadata>
+         <filter>
+             <exclude wildcard="*.html"/>
+         </filter>
+         <addDatasetSize/>
+     </datasetScan>
      <datasetScan name="ds629.1" 
                   path="RDADatasets/ds629.1" 
                   location="/glade/p/rda/data/ds629.1">
-        <metadata inherited="true">
-            <serviceName>all</serviceName>
-        </metadata>
-        <filter>
-            <exclude wildcard="*.html"/>
-        </filter>
-        <addDatasetSize/>
-    </datasetScan>
+         <metadata inherited="true">
+             <serviceName>all</serviceName>
+         </metadata>
+         <filter>
+             <exclude wildcard="*.html"/>
+         </filter>
+         <addDatasetSize/>
+     </datasetScan>
      <datasetScan name="ds629.2" 
                   path="RDADatasets/ds629.2" 
                   location="/glade/p/rda/data/ds629.2">
-        <metadata inherited="true">
-            <serviceName>all</serviceName>
-        </metadata>
-        <filter>
-            <exclude wildcard="*.html"/>
-        </filter>
-        <addDatasetSize/>
-    </datasetScan>
+         <metadata inherited="true">
+             <serviceName>all</serviceName>
+         </metadata>
+         <filter>
+             <exclude wildcard="*.html"/>
+         </filter>
+         <addDatasetSize/>
+     </datasetScan>
      <datasetScan name="ds629.3" 
                   path="RDADatasets/ds629.3" 
                   location="/glade/p/rda/data/ds629.3">
-        <metadata inherited="true">
-            <serviceName>all</serviceName>
-        </metadata>
-        <filter>
-            <exclude wildcard="*.html"/>
-        </filter>
-        <addDatasetSize/>
-    </datasetScan>
+         <metadata inherited="true">
+             <serviceName>all</serviceName>
+         </metadata>
+         <filter>
+             <exclude wildcard="*.html"/>
+         </filter>
+         <addDatasetSize/>
+     </datasetScan>
      <datasetScan name="ds629.5" 
                   path="RDADatasets/ds629.5" 
                   location="/glade/p/rda/data/ds629.5">
-        <metadata inherited="true">
-            <serviceName>all</serviceName>
-        </metadata>
-        <filter>
-            <exclude wildcard="*.html"/>
-        </filter>
-        <addDatasetSize/>
-    </datasetScan>
+         <metadata inherited="true">
+             <serviceName>all</serviceName>
+         </metadata>
+         <filter>
+             <exclude wildcard="*.html"/>
+         </filter>
+         <addDatasetSize/>
+     </datasetScan>
      <datasetScan name="ds629.6" 
                   path="RDADatasets/ds629.6" 
                   location="/glade/p/rda/data/ds629.6">
-        <metadata inherited="true">
-            <serviceName>all</serviceName>
-        </metadata>
-        <filter>
-            <exclude wildcard="*.html"/>
-        </filter>
-        <addDatasetSize/>
-    </datasetScan>
+         <metadata inherited="true">
+             <serviceName>all</serviceName>
+         </metadata>
+         <filter>
+             <exclude wildcard="*.html"/>
+         </filter>
+         <addDatasetSize/>
+     </datasetScan>
      <datasetScan name="ds631.0" 
                   path="RDADatasets/ds631.0" 
                   location="/glade/p/rda/data/ds631.0">
-        <metadata inherited="true">
-            <serviceName>all</serviceName>
-        </metadata>
-        <filter>
-            <exclude wildcard="*.html"/>
-        </filter>
-        <addDatasetSize/>
-    </datasetScan>
+         <metadata inherited="true">
+             <serviceName>all</serviceName>
+         </metadata>
+         <filter>
+             <exclude wildcard="*.html"/>
+         </filter>
+         <addDatasetSize/>
+     </datasetScan>
 
-    </dataset>
+  </dataset>
 
     <!--datasetScan name="RDA Dataset Files" ID="RDADatasets" path="RDADatasets" location="/glade/p/rda/data/">
         <metadata inherited="true">

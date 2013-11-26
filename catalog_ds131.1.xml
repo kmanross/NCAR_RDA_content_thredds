@@ -18,20 +18,20 @@
     <service name="uddc" serviceType="UDDC" base="/thredds/uddc/"/>
   </service>
 
-
   <dataset name="Synoptic Analysis Fields">
         <metadata inherited="true">
-          <serviceName>all</serviceName>
+         <serviceName>all</serviceName>
           <dataFormat>GRIB-1</dataFormat>
           <dataType>GRID</dataType>
-          <documentation type="Rights">Freely Available</documentation>
-          <!--documentation xlink:href="http://www.emc.ncep.noaa.gov/modelinfo/index.html" xlink:title="NCEP Model documentation" />
-          <documentation type="summary">Blah
+          <documentation type="Rights">Freely Available</documentation>          <documentation xlink:href="http://rda.ucar.edu/datasets/ds131.1/" xlink:title="NCAR RDA - NOAA-CIRES Twentieth Century Global Reanalysis Version II (ds131.1)" />
+          <documentation type="summary">The Twentieth Century Reanalysis Project, supported by the Earth System Research Laboratory Physical Sciences Division from NOAA and the University of Colorado CIRES/Climate Diagnostics Center, is an effort to produce a global reanalysis dataset spanning a portion of the nineteenth century and the entire twentieth century (1871 - near present), assimilating only surface observations of synoptic pressure, monthly sea surface temperature and sea ice distribution. Products include 6-hourly ensemble mean and spread analysis fields on a 2x2 degree global lat/lon grid, and 3 and 6-hourly ensemble mean and spread forecast (first guess) fields on a global Gaussian T-62 grid. Fields are accessible in yearly time series (1 file/parameter) and monthly synoptic time (all parameters/synoptic hour) files. Ensemble grids, spectral coefficients, and other information will available by offline request in the future.
           </documentation>
+          <contributor role="computation">National Energy Research Scientific Computing Center managed by Lawrence Berkeley National Laboratory and of the Oak Ridge Leadership Computing Facility at Oak Ridge National Laboratory
+          </contributor>
           <creator>
-            <name vocabulary="DIF">DOC/NOAA/NWS/NCEP</name>
-            <contact url="http://www.ncep.noaa.gov/" email="http://www.ncep.noaa.gov/mail_liaison.shtml" />
-          </creator-->
+            <name vocabulary="DIF">DOC/NOAA/ESRL</name>
+            <contact url="http://www.esrl.noaa.gov/psd/data/20thC_Rean/" email="esrl.psd.data@noaa.gov" />
+          </creator>
           <keywords>Numerical Weather Prediction</keywords>
           <keywords>NCEP</keywords>
           <keywords>Model data</keywords>
@@ -83,8 +83,27 @@
     
   </dataset>
 
-
   <dataset name="Synoptic First Guess Forecast Fields">
+        <metadata inherited="true">
+         <serviceName>all</serviceName>
+          <dataFormat>GRIB-1</dataFormat>
+          <dataType>GRID</dataType>
+          <documentation type="Rights">Freely Available</documentation>          <documentation xlink:href="http://rda.ucar.edu/datasets/ds131.1/" xlink:title="NCAR RDA - NOAA-CIRES Twentieth Century Global Reanalysis Version II (ds131.1)" />
+          <documentation type="summary">The Twentieth Century Reanalysis Project, supported by the Earth System Research Laboratory Physical Sciences Division from NOAA and the University of Colorado CIRES/Climate Diagnostics Center, is an effort to produce a global reanalysis dataset spanning a portion of the nineteenth century and the entire twentieth century (1871 - near present), assimilating only surface observations of synoptic pressure, monthly sea surface temperature and sea ice distribution. Products include 6-hourly ensemble mean and spread analysis fields on a 2x2 degree global lat/lon grid, and 3 and 6-hourly ensemble mean and spread forecast (first guess) fields on a global Gaussian T-62 grid. Fields are accessible in yearly time series (1 file/parameter) and monthly synoptic time (all parameters/synoptic hour) files. Ensemble grids, spectral coefficients, and other information will available by offline request in the future.
+          </documentation>
+          <contributor role="computation">National Energy Research Scientific Computing Center managed by Lawrence Berkeley National Laboratory and of the Oak Ridge Leadership Computing Facility at Oak Ridge National Laboratory
+          </contributor>
+          <creator>
+            <name vocabulary="DIF">DOC/NOAA/ESRL</name>
+            <contact url="http://www.esrl.noaa.gov/psd/data/20thC_Rean/" email="esrl.psd.data@noaa.gov" />
+          </creator>
+          <keywords>Numerical Weather Prediction</keywords>
+          <keywords>NCEP</keywords>
+          <keywords>Model data</keywords>
+          <keywords>Reanalysis</keywords>
+          <keywords>Twentieth Century</keywords>
+        </metadata>
+
 
       <featureCollection name="Mean"
                          featureType="GRIB"
