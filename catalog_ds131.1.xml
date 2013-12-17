@@ -49,6 +49,8 @@
         <collection name="ds131.1_synop_anl_mean"
                     ID="ds131.1_synop_anl_mean-AGG"
                     spec="/glade/p/rda/data/ds131.1/synop/pgrbanl_mean_.*\.grib$"
+                    timePartition="1 year"
+                    dateFormatMark="#pgrbanl_mean_#yyyyMM_HH"
                     olderThan="0 min"/>
         
         <gribConfig datasetTypes="Best">
@@ -70,6 +72,8 @@
         <collection name="ds131.1_synop_anl_sprd"
                     ID="ds131.1_synop_anl_sprd-AGG"
                     spec="/glade/p/rda/data/ds131.1/synop/pgrbanl_sprd_.*\.grib$"
+                    timePartition="1 year"
+                    dateFormatMark="#pgrbanl_sprd_#yyyyMM_HH"
                     olderThan="0 min"/>
     
         <gribConfig datasetTypes="Best">
@@ -115,6 +119,8 @@
         <collection name="ds131.1_synop_fgff_mean"
                     ID="ds131.1_synop_fgff_mean-AGG"
                     spec="/glade/p/rda/data/ds131.1/synop/sflxgrbfg_mean_.*\.grib$"
+                    timePartition="1 year"
+                    dateFormatMark="#sflxgrbfg_mean_#yyyyMM_HH"
                     olderThan="0 min"/>
         
         <gribConfig datasetTypes="Best">
@@ -136,6 +142,8 @@
         <collection name="ds131.1_synop_fgff_sprd"
                     ID="ds131.1_synop_fgff_sprd-AGG"
                     spec="/glade/p/rda/data/ds131.1/synop/sflxgrbfg_sprd_.*\.grib$"
+                    timePartition="1 year"
+                    dateFormatMark="#sflxgrbfg_sprd_#yyyyMM_HH"
                     olderThan="0 min"/>
     
         <gribConfig datasetTypes="Best">
