@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<catalog name="ds316.0 Catalog"
+<catalog name="ds601.0 Catalog"
         xmlns="http://www.unidata.ucar.edu/namespaces/thredds/InvCatalog/v1.0"
         xmlns:xlink="http://www.w3.org/1999/xlink">
 
@@ -21,7 +21,7 @@
 
     <dataset name="ds601.0-Agg"
              ID="ds601.0-AGG"
-             urlPath="ds316.0/10/best"
+             urlPath="ds601.0/10/best"
              harvest="true">
          <metadata inherited="true">
          <serviceName>all</serviceName>
