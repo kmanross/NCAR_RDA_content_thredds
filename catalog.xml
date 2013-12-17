@@ -27,12 +27,12 @@
     <catalogRef xlink:href="catalog_ds285.3.xml" xlink:title="ds285.3" name="" />
     <catalogRef xlink:href="catalog_ds316.0.xml" xlink:title="ds316.0" name="" />
     <catalogRef xlink:href="catalog_ds502.0.xml" xlink:title="ds502.0" name="" />
+    <catalogRef xlink:href="catalog_ds601.0.xml" xlink:title="ds601.0" name="" />
     <catalogRef xlink:href="catalog_ds629.1.xml" xlink:title="ds629.1" name="" />
     <catalogRef xlink:href="catalog_ds629.2.xml" xlink:title="ds629.2" name="" />
     <catalogRef xlink:href="catalog_ds629.3.xml" xlink:title="ds629.3" name="" />
     <catalogRef xlink:href="catalog_ds629.5.xml" xlink:title="ds629.5" name="" />
     <catalogRef xlink:href="catalog_ds629.6.xml" xlink:title="ds629.6" name="" />
-    <catalogRef xlink:href="catalog_ds601.0.xml" xlink:title="ds601.0" name="" />
     <catalogRef xlink:href="catalog_ds631.0.xml" xlink:title="ds631.0" name="" />
 
     <!--catalogRef xlink:href="catalog_ds461.0.xml" xlink:title="ds461.0" name="" /-->
@@ -181,6 +181,35 @@ The archive time series is continuously extended to a near-current date. It is n
          </filter>
          <addDatasetSize/>
      </datasetScan>
+     <datasetScan name="ds601.0" 
+                  path="RDADatasets/ds601.0" 
+                  location="/glade/p/rda/data/ds601.0">
+         <metadata inherited="true">
+         <serviceName>all</serviceName>
+          <dataFormat>NetCDF</dataFormat>
+          <dataType>GRID</dataType>
+          <documentation type="Rights">Freely Available</documentation>
+          <documentation xlink:href="http://rda.ucar.edu/datasets/ds601.0/index.html" xlink:title="NCAR Nested Regional Climate Model (NRCM) (ds601.0)" />
+          <documentation type="summary">
+This dataset contains climate model output data from the NCAR's Nested Regional Climate Model (NRCM). The NRCM combines the strengths of NCAR's Weather Research and Forecasting (WRF) model and NCAR's Community Climate System Model (CCSM) into an instrument that will allow for fundamental progress on the understanding and prediction of regional climate variability and change. In particular, embedding WRF within CCSM will allow scientists to resolve processes that occur at the regional scale, as well as the influence of those processes on the large-scale climate, thereby improving the fidelity of climate change simulations and their utility for local and regional planning.
+The output fields in this dataset consist of two- and three-dimensional arrays at three- and six-hourly intervals. A basic set of 3-D parameters is provided on model pressure levels: relative humidity, temperature, wind components, geopotential height, and potential vorticity. Additional 2-D parameters are provided at the model surface or near-surface level, and potential vorticity arrays are also provided on the 320 K and 345 K isentropic surfaces.
+
+Data are available as monthly time series files in NetCDF. The data currently provided are from the climate runs with regional model domain over the North Atlantic Ocean and USA. The simulation covers the periods 1995-2005, 2020-2030, and 2045-2055.
+          </documentation>
+          <creator>
+            <name vocabulary="DIF">UCAR/NCAR/MMM</name>
+            <contact url="http://www.nrcm.ucar.edu/" email="gholland(at)ucar.edu" />
+          </creator>
+          <keywords>Numerical Weather Prediction</keywords>
+          <keywords>Climate</keywords>
+          <keywords>Regional Climate Model</keywords>
+         </metadata>
+         <filter>
+             <exclude wildcard="*.html"/>
+         </filter>
+         <addDatasetSize/>
+     </datasetScan>
+
      <datasetScan name="ds629.1" 
                   path="RDADatasets/ds629.1" 
                   location="/glade/p/rda/data/ds629.1">
@@ -236,35 +265,6 @@ The archive time series is continuously extended to a near-current date. It is n
          </filter>
          <addDatasetSize/>
      </datasetScan>
-     <datasetScan name="ds601.0" 
-                  path="RDADatasets/ds601.0" 
-                  location="/glade/p/rda/data/ds601.0">
-         <metadata inherited="true">
-         <serviceName>all</serviceName>
-          <dataFormat>NetCDF</dataFormat>
-          <dataType>GRID</dataType>
-          <documentation type="Rights">Freely Available</documentation>
-          <documentation xlink:href="http://rda.ucar.edu/datasets/ds601.0/index.html" xlink:title="NCAR Nested Regional Climate Model (NRCM) (ds601.0)" />
-          <documentation type="summary">
-This dataset contains climate model output data from the NCAR's Nested Regional Climate Model (NRCM). The NRCM combines the strengths of NCAR's Weather Research and Forecasting (WRF) model and NCAR's Community Climate System Model (CCSM) into an instrument that will allow for fundamental progress on the understanding and prediction of regional climate variability and change. In particular, embedding WRF within CCSM will allow scientists to resolve processes that occur at the regional scale, as well as the influence of those processes on the large-scale climate, thereby improving the fidelity of climate change simulations and their utility for local and regional planning.
-The output fields in this dataset consist of two- and three-dimensional arrays at three- and six-hourly intervals. A basic set of 3-D parameters is provided on model pressure levels: relative humidity, temperature, wind components, geopotential height, and potential vorticity. Additional 2-D parameters are provided at the model surface or near-surface level, and potential vorticity arrays are also provided on the 320 K and 345 K isentropic surfaces.
-
-Data are available as monthly time series files in NetCDF. The data currently provided are from the climate runs with regional model domain over the North Atlantic Ocean and USA. The simulation covers the periods 1995-2005, 2020-2030, and 2045-2055.
-          </documentation>
-          <creator>
-            <name vocabulary="DIF">UCAR/NCAR/MMM</name>
-            <contact url="http://www.nrcm.ucar.edu/" email="gholland(at)ucar.edu" />
-          </creator>
-          <keywords>Numerical Weather Prediction</keywords>
-          <keywords>Climate</keywords>
-          <keywords>Regional Climate Model</keywords>
-         </metadata>
-         <filter>
-             <exclude wildcard="*.html"/>
-         </filter>
-         <addDatasetSize/>
-     </datasetScan>
-
      <datasetScan name="ds631.0" 
                   path="RDADatasets/ds631.0" 
                   location="/glade/p/rda/data/ds631.0">
