@@ -59,7 +59,7 @@
             <useTableVersion>false</useTableVersion>
           </pdsHash> 
         </gribConfig>
-        <update startup="true" trigger="allow"/>
+        <update startup="false" trigger="allow"/>
       </featureCollection>
     
       <featureCollection name="Spread"
@@ -82,7 +82,7 @@
             <useTableVersion>false</useTableVersion>
           </pdsHash>
         </gribConfig>
-        <update startup="true" trigger="allow"/>
+        <update startup="false" trigger="allow"/>
       </featureCollection>
     
   </dataset>
@@ -129,7 +129,7 @@
             <useTableVersion>false</useTableVersion>
           </pdsHash> 
         </gribConfig>
-        <update startup="true" trigger="allow"/>
+        <update startup="false" trigger="allow"/>
       </featureCollection>
     
       <featureCollection name="Spread"
@@ -152,7 +152,7 @@
             <useTableVersion>false</useTableVersion>
           </pdsHash>
         </gribConfig>
-        <update startup="true" trigger="allow"/>
+        <update startup="false" trigger="allow"/>
       </featureCollection>
     
   </dataset>
