@@ -25,7 +25,7 @@
      <featureCollection name="ds094.1_4lftx"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/4lftx">
+                        path="aggregations/ds094.1/0/4lftx">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -52,7 +52,7 @@
      <featureCollection name="ds094.1_apcp"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/apcp">
+                        path="aggregations/ds094.1/0/apcp">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -79,7 +79,7 @@
      <featureCollection name="ds094.1_cape.sfc"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/cape.sfc">
+                        path="aggregations/ds094.1/0/cape.sfc">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -106,7 +106,7 @@
      <featureCollection name="ds094.1_cfrzr"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/cfrzr">
+                        path="aggregations/ds094.1/0/cfrzr">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -133,7 +133,7 @@
      <featureCollection name="ds094.1_chi200"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/chi200">
+                        path="aggregations/ds094.1/0/chi200">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -160,7 +160,7 @@
      <featureCollection name="ds094.1_chi200.l"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/chi200.l">
+                        path="aggregations/ds094.1/0/chi200.l">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -187,7 +187,7 @@
      <featureCollection name="ds094.1_chi850"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/chi850">
+                        path="aggregations/ds094.1/0/chi850">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -214,7 +214,7 @@
      <featureCollection name="ds094.1_chi850.l"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/chi850.l">
+                        path="aggregations/ds094.1/0/chi850.l">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -241,7 +241,7 @@
      <featureCollection name="ds094.1_cicep"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/cicep">
+                        path="aggregations/ds094.1/0/cicep">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -268,7 +268,7 @@
      <featureCollection name="ds094.1_cldcovlow"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/cldcovlow">
+                        path="aggregations/ds094.1/0/cldcovlow">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -295,7 +295,7 @@
      <featureCollection name="ds094.1_cldcovmid"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/cldcovmid">
+                        path="aggregations/ds094.1/0/cldcovmid">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -322,7 +322,7 @@
      <featureCollection name="ds094.1_cldcovtot"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/cldcovtot">
+                        path="aggregations/ds094.1/0/cldcovtot">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -349,7 +349,7 @@
      <featureCollection name="ds094.1_clwmr1000"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/clwmr1000">
+                        path="aggregations/ds094.1/0/clwmr1000">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -376,7 +376,7 @@
      <featureCollection name="ds094.1_cprat"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/cprat">
+                        path="aggregations/ds094.1/0/cprat">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -403,7 +403,7 @@
      <featureCollection name="ds094.1_crain"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/crain">
+                        path="aggregations/ds094.1/0/crain">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -430,7 +430,7 @@
      <featureCollection name="ds094.1_csnow"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/csnow">
+                        path="aggregations/ds094.1/0/csnow">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -457,7 +457,7 @@
      <featureCollection name="ds094.1_dlwsfc"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/dlwsfc">
+                        path="aggregations/ds094.1/0/dlwsfc">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -484,7 +484,7 @@
      <featureCollection name="ds094.1_dlwsfc.l"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/dlwsfc.l">
+                        path="aggregations/ds094.1/0/dlwsfc.l">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -511,7 +511,7 @@
      <featureCollection name="ds094.1_dpt2m"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/dpt2m">
+                        path="aggregations/ds094.1/0/dpt2m">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -538,7 +538,7 @@
      <featureCollection name="ds094.1_dswsfc"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/dswsfc">
+                        path="aggregations/ds094.1/0/dswsfc">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -565,7 +565,7 @@
      <featureCollection name="ds094.1_dswsfc.l"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/dswsfc.l">
+                        path="aggregations/ds094.1/0/dswsfc.l">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -592,7 +592,7 @@
      <featureCollection name="ds094.1_gflux"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/gflux">
+                        path="aggregations/ds094.1/0/gflux">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -619,7 +619,7 @@
      <featureCollection name="ds094.1_gflux.l"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/gflux.l">
+                        path="aggregations/ds094.1/0/gflux.l">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -646,7 +646,7 @@
      <featureCollection name="ds094.1_icecon"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/icecon">
+                        path="aggregations/ds094.1/0/icecon">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -673,7 +673,7 @@
      <featureCollection name="ds094.1_icecon.l"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/icecon.l">
+                        path="aggregations/ds094.1/0/icecon.l">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -700,7 +700,7 @@
      <featureCollection name="ds094.1_icethk"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/icethk">
+                        path="aggregations/ds094.1/0/icethk">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -727,7 +727,7 @@
      <featureCollection name="ds094.1_icethk.l"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/icethk.l">
+                        path="aggregations/ds094.1/0/icethk.l">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -754,7 +754,7 @@
      <featureCollection name="ds094.1_ipv450"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/ipv450">
+                        path="aggregations/ds094.1/0/ipv450">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -781,7 +781,7 @@
      <featureCollection name="ds094.1_ipv450.l"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/ipv450.l">
+                        path="aggregations/ds094.1/0/ipv450.l">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -808,7 +808,7 @@
      <featureCollection name="ds094.1_ipv550"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/ipv550">
+                        path="aggregations/ds094.1/0/ipv550">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -835,7 +835,7 @@
      <featureCollection name="ds094.1_ipv550.l"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/ipv550.l">
+                        path="aggregations/ds094.1/0/ipv550.l">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -862,7 +862,7 @@
      <featureCollection name="ds094.1_ipv650"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/ipv650">
+                        path="aggregations/ds094.1/0/ipv650">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -889,7 +889,7 @@
      <featureCollection name="ds094.1_ipv650.l"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/ipv650.l">
+                        path="aggregations/ds094.1/0/ipv650.l">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -916,7 +916,7 @@
      <featureCollection name="ds094.1_lftx"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/lftx">
+                        path="aggregations/ds094.1/0/lftx">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -943,7 +943,7 @@
      <featureCollection name="ds094.1_lhtfl"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/lhtfl">
+                        path="aggregations/ds094.1/0/lhtfl">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -970,7 +970,7 @@
      <featureCollection name="ds094.1_lhtfl.l"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/lhtfl.l">
+                        path="aggregations/ds094.1/0/lhtfl.l">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -997,7 +997,7 @@
      <featureCollection name="ds094.1_ocnmld"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/ocnmld">
+                        path="aggregations/ds094.1/0/ocnmld">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -1024,7 +1024,7 @@
      <featureCollection name="ds094.1_ocnmld.l"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/ocnmld.l">
+                        path="aggregations/ds094.1/0/ocnmld.l">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -1051,7 +1051,7 @@
      <featureCollection name="ds094.1_ocnsst"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/ocnsst">
+                        path="aggregations/ds094.1/0/ocnsst">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -1078,7 +1078,7 @@
      <featureCollection name="ds094.1_ocnu5"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/ocnu5">
+                        path="aggregations/ds094.1/0/ocnu5">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -1105,7 +1105,7 @@
      <featureCollection name="ds094.1_ocnv5"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/ocnv5">
+                        path="aggregations/ds094.1/0/ocnv5">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -1132,7 +1132,7 @@
      <featureCollection name="ds094.1_pli"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/pli">
+                        path="aggregations/ds094.1/0/pli">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -1159,7 +1159,7 @@
      <featureCollection name="ds094.1_prate"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/prate">
+                        path="aggregations/ds094.1/0/prate">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -1186,7 +1186,7 @@
      <featureCollection name="ds094.1_prate.l"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/prate.l">
+                        path="aggregations/ds094.1/0/prate.l">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -1213,7 +1213,7 @@
      <featureCollection name="ds094.1_pressfc"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/pressfc">
+                        path="aggregations/ds094.1/0/pressfc">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -1240,7 +1240,7 @@
      <featureCollection name="ds094.1_pressfc.l"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/pressfc.l">
+                        path="aggregations/ds094.1/0/pressfc.l">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -1267,7 +1267,7 @@
      <featureCollection name="ds094.1_prmsl"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/prmsl">
+                        path="aggregations/ds094.1/0/prmsl">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -1294,7 +1294,7 @@
      <featureCollection name="ds094.1_prmsl.l"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/prmsl.l">
+                        path="aggregations/ds094.1/0/prmsl.l">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -1321,7 +1321,7 @@
      <featureCollection name="ds094.1_psi200"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/psi200">
+                        path="aggregations/ds094.1/0/psi200">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -1348,7 +1348,7 @@
      <featureCollection name="ds094.1_psi200.l"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/psi200.l">
+                        path="aggregations/ds094.1/0/psi200.l">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -1375,7 +1375,7 @@
      <featureCollection name="ds094.1_psi850"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/psi850">
+                        path="aggregations/ds094.1/0/psi850">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -1402,7 +1402,7 @@
      <featureCollection name="ds094.1_psi850.l"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/psi850.l">
+                        path="aggregations/ds094.1/0/psi850.l">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -1429,7 +1429,7 @@
      <featureCollection name="ds094.1_pwat"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/pwat">
+                        path="aggregations/ds094.1/0/pwat">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -1456,7 +1456,7 @@
      <featureCollection name="ds094.1_pwat.l"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/pwat.l">
+                        path="aggregations/ds094.1/0/pwat.l">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -1483,7 +1483,7 @@
      <featureCollection name="ds094.1_q2m"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/q2m">
+                        path="aggregations/ds094.1/0/q2m">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -1510,7 +1510,7 @@
      <featureCollection name="ds094.1_q2m.l"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/q2m.l">
+                        path="aggregations/ds094.1/0/q2m.l">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -1537,7 +1537,7 @@
      <featureCollection name="ds094.1_q500"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/q500">
+                        path="aggregations/ds094.1/0/q500">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -1564,7 +1564,7 @@
      <featureCollection name="ds094.1_q500.l"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/q500.l">
+                        path="aggregations/ds094.1/0/q500.l">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -1591,7 +1591,7 @@
      <featureCollection name="ds094.1_q700"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/q700">
+                        path="aggregations/ds094.1/0/q700">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -1618,7 +1618,7 @@
      <featureCollection name="ds094.1_q700.l"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/q700.l">
+                        path="aggregations/ds094.1/0/q700.l">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -1645,7 +1645,7 @@
      <featureCollection name="ds094.1_q850"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/q850">
+                        path="aggregations/ds094.1/0/q850">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -1672,7 +1672,7 @@
      <featureCollection name="ds094.1_q850.l"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/q850.l">
+                        path="aggregations/ds094.1/0/q850.l">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -1699,7 +1699,7 @@
      <featureCollection name="ds094.1_q925"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/q925">
+                        path="aggregations/ds094.1/0/q925">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -1726,7 +1726,7 @@
      <featureCollection name="ds094.1_q925.l"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/q925.l">
+                        path="aggregations/ds094.1/0/q925.l">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -1753,7 +1753,7 @@
      <featureCollection name="ds094.1_rh2m"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/rh2m">
+                        path="aggregations/ds094.1/0/rh2m">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -1780,7 +1780,7 @@
      <featureCollection name="ds094.1_runoff"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/runoff">
+                        path="aggregations/ds094.1/0/runoff">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -1807,7 +1807,7 @@
      <featureCollection name="ds094.1_runoff.l"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/runoff.l">
+                        path="aggregations/ds094.1/0/runoff.l">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -1834,7 +1834,7 @@
      <featureCollection name="ds094.1_shtfl"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/shtfl">
+                        path="aggregations/ds094.1/0/shtfl">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -1861,7 +1861,7 @@
      <featureCollection name="ds094.1_shtfl.l"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/shtfl.l">
+                        path="aggregations/ds094.1/0/shtfl.l">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -1888,7 +1888,7 @@
      <featureCollection name="ds094.1_snohf"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/snohf">
+                        path="aggregations/ds094.1/0/snohf">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -1915,7 +1915,7 @@
      <featureCollection name="ds094.1_snohf.l"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/snohf.l">
+                        path="aggregations/ds094.1/0/snohf.l">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -1942,7 +1942,7 @@
      <featureCollection name="ds094.1_soilm1"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/soilm1">
+                        path="aggregations/ds094.1/0/soilm1">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -1969,7 +1969,7 @@
      <featureCollection name="ds094.1_soilm1.l"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/soilm1.l">
+                        path="aggregations/ds094.1/0/soilm1.l">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -1996,7 +1996,7 @@
      <featureCollection name="ds094.1_soilm1x0.5"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/soilm1x0.5">
+                        path="aggregations/ds094.1/0/soilm1x0.5">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -2023,7 +2023,7 @@
      <featureCollection name="ds094.1_soilm2"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/soilm2">
+                        path="aggregations/ds094.1/0/soilm2">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -2050,7 +2050,7 @@
      <featureCollection name="ds094.1_soilm2.l"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/soilm2.l">
+                        path="aggregations/ds094.1/0/soilm2.l">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -2077,7 +2077,7 @@
      <featureCollection name="ds094.1_soilm2x0.5"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/soilm2x0.5">
+                        path="aggregations/ds094.1/0/soilm2x0.5">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -2104,7 +2104,7 @@
      <featureCollection name="ds094.1_soilm3"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/soilm3">
+                        path="aggregations/ds094.1/0/soilm3">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -2131,7 +2131,7 @@
      <featureCollection name="ds094.1_soilm3.l"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/soilm3.l">
+                        path="aggregations/ds094.1/0/soilm3.l">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -2158,7 +2158,7 @@
      <featureCollection name="ds094.1_soilm3x0.5"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/soilm3x0.5">
+                        path="aggregations/ds094.1/0/soilm3x0.5">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -2185,7 +2185,7 @@
      <featureCollection name="ds094.1_soilm4"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/soilm4">
+                        path="aggregations/ds094.1/0/soilm4">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -2212,7 +2212,7 @@
      <featureCollection name="ds094.1_soilm4.l"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/soilm4.l">
+                        path="aggregations/ds094.1/0/soilm4.l">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -2239,7 +2239,7 @@
      <featureCollection name="ds094.1_soilm4x0.5"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/soilm4x0.5">
+                        path="aggregations/ds094.1/0/soilm4x0.5">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -2266,7 +2266,7 @@
      <featureCollection name="ds094.1_soilt1"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/soilt1">
+                        path="aggregations/ds094.1/0/soilt1">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -2293,7 +2293,7 @@
      <featureCollection name="ds094.1_soilt1.l"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/soilt1.l">
+                        path="aggregations/ds094.1/0/soilt1.l">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -2320,7 +2320,7 @@
      <featureCollection name="ds094.1_swe"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/swe">
+                        path="aggregations/ds094.1/0/swe">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -2347,7 +2347,7 @@
      <featureCollection name="ds094.1_swe.l"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/swe.l">
+                        path="aggregations/ds094.1/0/swe.l">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -2374,7 +2374,7 @@
      <featureCollection name="ds094.1_swex0.5"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/swex0.5">
+                        path="aggregations/ds094.1/0/swex0.5">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -2401,7 +2401,7 @@
      <featureCollection name="ds094.1_t1000"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/t1000">
+                        path="aggregations/ds094.1/0/t1000">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -2428,7 +2428,7 @@
      <featureCollection name="ds094.1_t1000.l"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/t1000.l">
+                        path="aggregations/ds094.1/0/t1000.l">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -2455,7 +2455,7 @@
      <featureCollection name="ds094.1_t2"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/t2">
+                        path="aggregations/ds094.1/0/t2">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -2482,7 +2482,7 @@
      <featureCollection name="ds094.1_t2.l"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/t2.l">
+                        path="aggregations/ds094.1/0/t2.l">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -2509,7 +2509,7 @@
      <featureCollection name="ds094.1_t200"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/t200">
+                        path="aggregations/ds094.1/0/t200">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -2536,7 +2536,7 @@
      <featureCollection name="ds094.1_t200.l"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/t200.l">
+                        path="aggregations/ds094.1/0/t200.l">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -2563,7 +2563,7 @@
      <featureCollection name="ds094.1_t50"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/t50">
+                        path="aggregations/ds094.1/0/t50">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -2590,7 +2590,7 @@
      <featureCollection name="ds094.1_t50.l"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/t50.l">
+                        path="aggregations/ds094.1/0/t50.l">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -2617,7 +2617,7 @@
      <featureCollection name="ds094.1_t500"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/t500">
+                        path="aggregations/ds094.1/0/t500">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -2644,7 +2644,7 @@
      <featureCollection name="ds094.1_t500.l"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/t500.l">
+                        path="aggregations/ds094.1/0/t500.l">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -2671,7 +2671,7 @@
      <featureCollection name="ds094.1_t700"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/t700">
+                        path="aggregations/ds094.1/0/t700">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -2698,7 +2698,7 @@
      <featureCollection name="ds094.1_t700.l"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/t700.l">
+                        path="aggregations/ds094.1/0/t700.l">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -2725,7 +2725,7 @@
      <featureCollection name="ds094.1_t850"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/t850">
+                        path="aggregations/ds094.1/0/t850">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -2752,7 +2752,7 @@
      <featureCollection name="ds094.1_t850.l"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/t850.l">
+                        path="aggregations/ds094.1/0/t850.l">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -2779,7 +2779,7 @@
      <featureCollection name="ds094.1_tmax"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/tmax">
+                        path="aggregations/ds094.1/0/tmax">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -2806,7 +2806,7 @@
      <featureCollection name="ds094.1_tmax.l"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/tmax.l">
+                        path="aggregations/ds094.1/0/tmax.l">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -2833,7 +2833,7 @@
      <featureCollection name="ds094.1_tmin"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/tmin">
+                        path="aggregations/ds094.1/0/tmin">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -2860,7 +2860,7 @@
      <featureCollection name="ds094.1_tmin.l"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/tmin.l">
+                        path="aggregations/ds094.1/0/tmin.l">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -2887,7 +2887,7 @@
      <featureCollection name="ds094.1_tmp2m"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/tmp2m">
+                        path="aggregations/ds094.1/0/tmp2m">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -2914,7 +2914,7 @@
      <featureCollection name="ds094.1_tmp2m.l"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/tmp2m.l">
+                        path="aggregations/ds094.1/0/tmp2m.l">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -2941,7 +2941,7 @@
      <featureCollection name="ds094.1_tmphy1"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/tmphy1">
+                        path="aggregations/ds094.1/0/tmphy1">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -2968,7 +2968,7 @@
      <featureCollection name="ds094.1_tmphy1.l"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/tmphy1.l">
+                        path="aggregations/ds094.1/0/tmphy1.l">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -2995,7 +2995,7 @@
      <featureCollection name="ds094.1_tmpsfc"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/tmpsfc">
+                        path="aggregations/ds094.1/0/tmpsfc">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -3022,7 +3022,7 @@
      <featureCollection name="ds094.1_tmpsfc.l"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/tmpsfc.l">
+                        path="aggregations/ds094.1/0/tmpsfc.l">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -3049,7 +3049,7 @@
      <featureCollection name="ds094.1_ulwsfc"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/ulwsfc">
+                        path="aggregations/ds094.1/0/ulwsfc">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -3076,7 +3076,7 @@
      <featureCollection name="ds094.1_ulwsfc.l"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/ulwsfc.l">
+                        path="aggregations/ds094.1/0/ulwsfc.l">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -3103,7 +3103,7 @@
      <featureCollection name="ds094.1_ulwtoa"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/ulwtoa">
+                        path="aggregations/ds094.1/0/ulwtoa">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -3130,7 +3130,7 @@
      <featureCollection name="ds094.1_ulwtoa.l"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/ulwtoa.l">
+                        path="aggregations/ds094.1/0/ulwtoa.l">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -3157,7 +3157,7 @@
      <featureCollection name="ds094.1_uswsfc"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/uswsfc">
+                        path="aggregations/ds094.1/0/uswsfc">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -3184,7 +3184,7 @@
      <featureCollection name="ds094.1_uswsfc.l"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/uswsfc.l">
+                        path="aggregations/ds094.1/0/uswsfc.l">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -3211,7 +3211,7 @@
      <featureCollection name="ds094.1_uswtoa"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/uswtoa">
+                        path="aggregations/ds094.1/0/uswtoa">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -3238,7 +3238,7 @@
      <featureCollection name="ds094.1_uswtoa.l"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/uswtoa.l">
+                        path="aggregations/ds094.1/0/uswtoa.l">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -3265,7 +3265,7 @@
      <featureCollection name="ds094.1_vvel500"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/vvel500">
+                        path="aggregations/ds094.1/0/vvel500">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -3292,7 +3292,7 @@
      <featureCollection name="ds094.1_vvel500.l"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/vvel500.l">
+                        path="aggregations/ds094.1/0/vvel500.l">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -3319,7 +3319,7 @@
      <featureCollection name="ds094.1_wnd0-30mb"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/wnd0-30mb">
+                        path="aggregations/ds094.1/0/wnd0-30mb">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -3346,7 +3346,7 @@
      <featureCollection name="ds094.1_wnd1000"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/wnd1000">
+                        path="aggregations/ds094.1/0/wnd1000">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -3373,7 +3373,7 @@
      <featureCollection name="ds094.1_wnd1000.l"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/wnd1000.l">
+                        path="aggregations/ds094.1/0/wnd1000.l">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -3400,7 +3400,7 @@
      <featureCollection name="ds094.1_wnd10m"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/wnd10m">
+                        path="aggregations/ds094.1/0/wnd10m">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -3427,7 +3427,7 @@
      <featureCollection name="ds094.1_wnd10m.l"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/wnd10m.l">
+                        path="aggregations/ds094.1/0/wnd10m.l">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -3454,7 +3454,7 @@
      <featureCollection name="ds094.1_wnd10mx0.5"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/wnd10mx0.5">
+                        path="aggregations/ds094.1/0/wnd10mx0.5">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -3481,7 +3481,7 @@
      <featureCollection name="ds094.1_wnd200"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/wnd200">
+                        path="aggregations/ds094.1/0/wnd200">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -3508,7 +3508,7 @@
      <featureCollection name="ds094.1_wnd200.l"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/wnd200.l">
+                        path="aggregations/ds094.1/0/wnd200.l">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -3535,7 +3535,7 @@
      <featureCollection name="ds094.1_wnd500"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/wnd500">
+                        path="aggregations/ds094.1/0/wnd500">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -3562,7 +3562,7 @@
      <featureCollection name="ds094.1_wnd500.l"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/wnd500.l">
+                        path="aggregations/ds094.1/0/wnd500.l">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -3589,7 +3589,7 @@
      <featureCollection name="ds094.1_wnd700"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/wnd700">
+                        path="aggregations/ds094.1/0/wnd700">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -3616,7 +3616,7 @@
      <featureCollection name="ds094.1_wnd700.l"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/wnd700.l">
+                        path="aggregations/ds094.1/0/wnd700.l">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -3643,7 +3643,7 @@
      <featureCollection name="ds094.1_wnd850"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/wnd850">
+                        path="aggregations/ds094.1/0/wnd850">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -3670,7 +3670,7 @@
      <featureCollection name="ds094.1_wnd850.l"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/wnd850.l">
+                        path="aggregations/ds094.1/0/wnd850.l">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -3697,7 +3697,7 @@
      <featureCollection name="ds094.1_wndstrs"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/wndstrs">
+                        path="aggregations/ds094.1/0/wndstrs">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -3724,7 +3724,7 @@
      <featureCollection name="ds094.1_wndstrs.l"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/wndstrs.l">
+                        path="aggregations/ds094.1/0/wndstrs.l">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -3751,7 +3751,7 @@
      <featureCollection name="ds094.1_z1000"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/z1000">
+                        path="aggregations/ds094.1/0/z1000">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -3778,7 +3778,7 @@
      <featureCollection name="ds094.1_z1000.l"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/z1000.l">
+                        path="aggregations/ds094.1/0/z1000.l">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -3805,7 +3805,7 @@
      <featureCollection name="ds094.1_z200"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/z200">
+                        path="aggregations/ds094.1/0/z200">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -3832,7 +3832,7 @@
      <featureCollection name="ds094.1_z200.l"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/z200.l">
+                        path="aggregations/ds094.1/0/z200.l">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -3859,7 +3859,7 @@
      <featureCollection name="ds094.1_z500"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/z500">
+                        path="aggregations/ds094.1/0/z500">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -3886,7 +3886,7 @@
      <featureCollection name="ds094.1_z500.l"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/z500.l">
+                        path="aggregations/ds094.1/0/z500.l">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -3913,7 +3913,7 @@
      <featureCollection name="ds094.1_z700"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/z700">
+                        path="aggregations/ds094.1/0/z700">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -3940,7 +3940,7 @@
      <featureCollection name="ds094.1_z700.l"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/z700.l">
+                        path="aggregations/ds094.1/0/z700.l">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -3967,7 +3967,7 @@
      <featureCollection name="ds094.1_z850"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/z850">
+                        path="aggregations/ds094.1/0/z850">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>
@@ -3994,7 +3994,7 @@
      <featureCollection name="ds094.1_z850.l"
                         featureType="GRIB"
                         harvest="true"
-                        path="ds094.1/0/z850.l">
+                        path="aggregations/ds094.1/0/z850.l">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataFormat>GRIB-2</dataFormat>

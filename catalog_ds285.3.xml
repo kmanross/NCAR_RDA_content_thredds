@@ -23,7 +23,7 @@
   <featureCollection name="Temperature"
                      featureType="GRIB"
                      harvest="true"
-                     path="ds285.3/7">
+                     path="aggregations/ds285.3/7">
 
     <metadata inherited="true">
          <serviceName>all</serviceName>
@@ -50,7 +50,7 @@
   <featureCollection name="Salinity"
                      featureType="GRIB"
                      harvest="true"
-                     path="ds285.3/8">
+                     path="aggregations/ds285.3/8">
 
     <metadata inherited="true">
          <serviceName>all</serviceName>
@@ -81,7 +81,7 @@
   <featureCollection name="Temperature"
                      featureType="GRIB"
                      harvest="true"
-                     path="ds285.3/9">
+                     path="aggregations/ds285.3/9">
 
     <metadata inherited="true">
          <serviceName>all</serviceName>
@@ -108,7 +108,7 @@
   <featureCollection name="Salinity"
                      featureType="GRIB"
                      harvest="true"
-                     path="ds285.3/10">
+                     path="aggregations/ds285.3/10">
 
     <metadata inherited="true">
          <serviceName>all</serviceName>

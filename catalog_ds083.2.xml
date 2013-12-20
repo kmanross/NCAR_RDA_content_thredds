@@ -22,7 +22,7 @@
   <featureCollection name="ds083.2"
                      featureType="GRIB"
                      harvest="true"
-                     path="ds083.2/1">
+                     path="aggregations/ds083.2/1">
          <!--metadata xlink:href="http://rda.ucar.edu/metadata/thredds/temp/metadata_ds083.2.xml"
                   xlink:title="ds083.2 Metadata" /-->
          <metadata inherited="true">

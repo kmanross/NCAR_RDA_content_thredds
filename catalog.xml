@@ -46,7 +46,7 @@
         </metadata>
 
      <datasetScan name="ds083.2" 
-                  path="RDADatasets/ds083.2" 
+                  path="files/ds083.2" 
                   location="/glade/p/rda/data/ds083.2">
 <!--metadata xlink:href="http://rda.ucar.edu/metadata/thredds/temp/metadata_ds083.2.xml"
    xlink:title="ds083.2 Metadata" /-->
@@ -87,7 +87,7 @@ The archive time series is continuously extended to a near-current date. It is n
         <addDatasetSize/>
      </datasetScan>
      <datasetScan name="ds093.1" 
-                  path="RDADatasets/ds093.1" 
+                  path="files/ds093.1" 
                   location="/glade/p/rda/data/ds093.1">
          <metadata inherited="true">
              <serviceName>all</serviceName>
@@ -98,7 +98,7 @@ The archive time series is continuously extended to a near-current date. It is n
          <addDatasetSize/>
      </datasetScan>
      <datasetScan name="ds094.1" 
-                  path="RDADatasets/ds094.1" 
+                  path="files/ds094.1" 
                   location="/glade/p/rda/data/ds094.1">
          <metadata inherited="true">
              <serviceName>all</serviceName>
@@ -109,7 +109,7 @@ The archive time series is continuously extended to a near-current date. It is n
          <addDatasetSize/>
      </datasetScan>
      <datasetScan name="ds131.1" 
-                  path="RDADatasets/ds131.1" 
+                  path="files/ds131.1" 
                   location="/glade/p/rda/data/ds131.1">
          <metadata inherited="true">
          <serviceName>all</serviceName>
@@ -138,7 +138,7 @@ The archive time series is continuously extended to a near-current date. It is n
          <addDatasetSize/>
      </datasetScan>
      <datasetScan name="ds277.6" 
-                  path="RDADatasets/ds277.6" 
+                  path="files/ds277.6" 
                   location="/glade/p/rda/data/ds277.6">
          <metadata inherited="true">
              <serviceName>all</serviceName>
@@ -149,7 +149,7 @@ The archive time series is continuously extended to a near-current date. It is n
          <addDatasetSize/>
      </datasetScan>
      <datasetScan name="ds285.3" 
-                  path="RDADatasets/ds285.3" 
+                  path="files/ds285.3" 
                   location="/glade/p/rda/data/ds285.3">
          <metadata inherited="true">
              <serviceName>all</serviceName>
@@ -160,7 +160,7 @@ The archive time series is continuously extended to a near-current date. It is n
          <addDatasetSize/>
      </datasetScan>
      <datasetScan name="ds316.0" 
-                  path="RDADatasets/ds316.0" 
+                  path="files/ds316.0" 
                   location="/glade/p/rda/data/ds316.0">
          <metadata inherited="true">
              <serviceName>all</serviceName>
@@ -171,7 +171,7 @@ The archive time series is continuously extended to a near-current date. It is n
          <addDatasetSize/>
      </datasetScan>
      <datasetScan name="ds502.0" 
-                  path="RDADatasets/ds502.0" 
+                  path="files/ds502.0" 
                   location="/glade/p/rda/data/ds502.0">
          <metadata inherited="true">
              <serviceName>all</serviceName>
@@ -182,7 +182,7 @@ The archive time series is continuously extended to a near-current date. It is n
          <addDatasetSize/>
      </datasetScan>
      <datasetScan name="ds601.0" 
-                  path="RDADatasets/ds601.0" 
+                  path="files/ds601.0" 
                   location="/glade/p/rda/data/ds601.0">
          <metadata inherited="true">
          <serviceName>all</serviceName>
@@ -211,7 +211,7 @@ Data are available as monthly time series files in NetCDF. The data currently pr
      </datasetScan>
 
      <datasetScan name="ds629.1" 
-                  path="RDADatasets/ds629.1" 
+                  path="files/ds629.1" 
                   location="/glade/p/rda/data/ds629.1">
          <metadata inherited="true">
              <serviceName>all</serviceName>
@@ -222,7 +222,7 @@ Data are available as monthly time series files in NetCDF. The data currently pr
          <addDatasetSize/>
      </datasetScan>
      <datasetScan name="ds629.2" 
-                  path="RDADatasets/ds629.2" 
+                  path="files/ds629.2" 
                   location="/glade/p/rda/data/ds629.2">
          <metadata inherited="true">
              <serviceName>all</serviceName>
@@ -233,7 +233,7 @@ Data are available as monthly time series files in NetCDF. The data currently pr
          <addDatasetSize/>
      </datasetScan>
      <datasetScan name="ds629.3" 
-                  path="RDADatasets/ds629.3" 
+                  path="files/ds629.3" 
                   location="/glade/p/rda/data/ds629.3">
          <metadata inherited="true">
              <serviceName>all</serviceName>
@@ -244,7 +244,7 @@ Data are available as monthly time series files in NetCDF. The data currently pr
          <addDatasetSize/>
      </datasetScan>
      <datasetScan name="ds629.5" 
-                  path="RDADatasets/ds629.5" 
+                  path="files/ds629.5" 
                   location="/glade/p/rda/data/ds629.5">
          <metadata inherited="true">
              <serviceName>all</serviceName>
@@ -255,7 +255,7 @@ Data are available as monthly time series files in NetCDF. The data currently pr
          <addDatasetSize/>
      </datasetScan>
      <datasetScan name="ds629.6" 
-                  path="RDADatasets/ds629.6" 
+                  path="files/ds629.6" 
                   location="/glade/p/rda/data/ds629.6">
          <metadata inherited="true">
              <serviceName>all</serviceName>
@@ -266,7 +266,7 @@ Data are available as monthly time series files in NetCDF. The data currently pr
          <addDatasetSize/>
      </datasetScan>
      <datasetScan name="ds631.0" 
-                  path="RDADatasets/ds631.0" 
+                  path="files/ds631.0" 
                   location="/glade/p/rda/data/ds631.0">
          <metadata inherited="true">
              <serviceName>all</serviceName>
@@ -279,7 +279,7 @@ Data are available as monthly time series files in NetCDF. The data currently pr
 
   </dataset>
 
-    <!--datasetScan name="RDA Dataset Files" ID="RDADatasets" path="RDADatasets" location="/glade/p/rda/data/">
+    <!--datasetScan name="RDA Dataset Files" ID="files" path="files" location="/glade/p/rda/data/">
         <metadata inherited="true">
             <serviceName>all</serviceName>
             <authority>edu.ucar.rda</authority>

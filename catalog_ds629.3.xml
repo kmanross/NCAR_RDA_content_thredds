@@ -23,7 +23,7 @@
       <featureCollection name="629.3 - Single Parameter 6-Hourly Pressure Level Forecast Time Series"
                          featureType="GRIB"
                          harvest="true"
-                         path="ds629.3/0">
+                         path="aggregations/ds629.3/0">
     
         <metadata inherited="true">
              <serviceName>all</serviceName>

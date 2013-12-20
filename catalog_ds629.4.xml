@@ -23,7 +23,7 @@
       <featureCollection name="Surface"
                          featureType="GRIB"
                          harvest="true"
-                         path="ds629.1/9">
+                         path="aggregations/ds629.1/9">
     
         <metadata inherited="true">
              <serviceName>all</serviceName>
@@ -53,7 +53,7 @@
       <featureCollection name="Surface"
                          featureType="GRIB"
                          harvest="true"
-                         path="ds629.1/15">
+                         path="aggregations/ds629.1/15">
     
         <metadata inherited="true">
              <serviceName>all</serviceName>

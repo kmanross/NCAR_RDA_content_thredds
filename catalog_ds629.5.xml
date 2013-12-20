@@ -22,7 +22,7 @@
       <featureCollection name="629.5 - Single Parameter 3-Hourly Surface Forecast Time Series"
                          featureType="GRIB"
                          harvest="true"
-                         path="ds629.5/0">
+                         path="aggregations/ds629.5/0">
     
         <metadata inherited="true">
              <serviceName>all</serviceName>

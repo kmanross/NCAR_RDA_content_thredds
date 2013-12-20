@@ -21,7 +21,7 @@
 <!--
   <dataset name="Invariant variables for ASR 30 km products"
            ID="ds631.0_invariant-AGG"
-           urlPath="ds631.0/3/best"
+           urlPath="aggregations/ds631.0/3/best"
            harvest="true">
      <serviceName>all</serviceName>
      <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
@@ -33,7 +33,7 @@
 -->
   <dataset name="ASR 30 km 3d pressure level analysis"
            ID="ds631.0_anl_3d-AGG"
-           urlPath="ds631.0/6/best"
+           urlPath="aggregations/ds631.0/6/best"
            harvest="true">
      <serviceName>all</serviceName>
      <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
@@ -53,7 +53,7 @@
 
   <dataset name="ASR 30 km 2d surface analysis"
            ID="ds631.0_anl_2d-AGG"
-           urlPath="ds631.0/9/best"
+           urlPath="aggregations/ds631.0/9/best"
            harvest="true">
      <serviceName>all</serviceName>
      <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
@@ -74,7 +74,7 @@
 
   <dataset name="ASR 30 km 3d pressure level forecast"
            ID="ds631.0_fcst_3d-AGG"
-           urlPath="ds631.0/14/best"
+           urlPath="aggregations/ds631.0/14/best"
            harvest="true">
      <serviceName>all</serviceName>
      <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
@@ -94,7 +94,7 @@
 
   <dataset name="ASR 30 km 2d surface forecast"
            ID="ds631.0_fcst_2d-AGG"
-           urlPath="ds631.0/15/best"
+           urlPath="aggregations/ds631.0/15/best"
            harvest="true">
      <serviceName>all</serviceName>
      <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
@@ -114,7 +114,7 @@
 
   <dataset name="ASR 30km monthly means of analysis products"
            ID="ds631.0_anl_monthly-AGG"
-           urlPath="ds631.0/21/best"
+           urlPath="aggregations/ds631.0/21/best"
            harvest="true">
      <serviceName>all</serviceName>
      <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
@@ -151,7 +151,7 @@
 
   <dataset name="ASR 30km monthly means of forecast products"
            ID="ds631.0_fcst_monthly-AGG"
-           urlPath="ds631.0/22/best"
+           urlPath="aggregations/ds631.0/22/best"
            harvest="true">
      <serviceName>all</serviceName>
      <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">

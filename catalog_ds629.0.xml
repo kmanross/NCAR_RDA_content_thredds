@@ -23,7 +23,7 @@
       <featureCollection name="Model Levels"
                          featureType="GRIB"
                          harvest="true"
-                         path="ds629.0/5">
+                         path="aggregations/ds629.0/5">
     
         <metadata inherited="true">
              <serviceName>all</serviceName>
@@ -49,7 +49,7 @@
       <featureCollection name="Pressure Levels"
                          featureType="GRIB"
                          harvest="true"
-                         path="ds629.0/6">
+                         path="aggregations/ds629.0/6">
     
         <metadata inherited="true">
              <serviceName>all</serviceName>
@@ -75,7 +75,7 @@
       <featureCollection name="Surface"
                          featureType="GRIB"
                          harvest="true"
-                         path="ds629.0/9">
+                         path="aggregations/ds629.0/9">
     
         <metadata inherited="true">
              <serviceName>all</serviceName>
@@ -105,7 +105,7 @@
       <featureCollection name="Pressure Levels"
                          featureType="GRIB"
                          harvest="true"
-                         path="ds629.0/14">
+                         path="aggregations/ds629.0/14">
     
         <metadata inherited="true">
              <serviceName>all</serviceName>
@@ -131,7 +131,7 @@
       <featureCollection name="Surface"
                          featureType="GRIB"
                          harvest="true"
-                         path="ds629.0/15">
+                         path="aggregations/ds629.0/15">
     
         <metadata inherited="true">
              <serviceName>all</serviceName>

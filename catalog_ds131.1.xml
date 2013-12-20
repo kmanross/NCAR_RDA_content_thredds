@@ -42,7 +42,7 @@
       <featureCollection name="Mean"
                          featureType="GRIB"
                          harvest="true"
-                         path="ds131.1/3/mean">
+                         path="aggregations/ds131.1/3/mean">
         <metadata inherited="true">
           <serviceName>all</serviceName>
         </metadata>
@@ -65,7 +65,7 @@
       <featureCollection name="Spread"
                          featureType="GRIB"
                          harvest="true"
-                         path="ds131.1/3/spread">
+                         path="aggregations/ds131.1/3/spread">
         <metadata inherited="true">
           <serviceName>all</serviceName>
         </metadata>
@@ -112,7 +112,7 @@
       <featureCollection name="Mean"
                          featureType="GRIB"
                          harvest="true"
-                         path="ds131.1/4/mean">
+                         path="aggregations/ds131.1/4/mean">
         <metadata inherited="true">
           <serviceName>all</serviceName>
         </metadata>
@@ -135,7 +135,7 @@
       <featureCollection name="Spread"
                          featureType="GRIB"
                          harvest="true"
-                         path="ds131.1/4/spread">
+                         path="aggregations/ds131.1/4/spread">
         <metadata inherited="true">
           <serviceName>all</serviceName>
         </metadata>

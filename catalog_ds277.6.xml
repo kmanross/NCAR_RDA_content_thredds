@@ -20,7 +20,7 @@
   <featureCollection name="ds277.6"
                      featureType="GRIB"
                      harvest="true"
-                     path="ds277.6/1"
+                     path="aggregations/ds277.6/1"
   >
 
     <metadata inherited="true">
