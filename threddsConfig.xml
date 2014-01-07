@@ -123,7 +123,7 @@
 
   <AggregationCache>
     <scour>-1</scour>
-    <maxAge>90 days</maxAge>
+    <maxAge>900 days</maxAge>
   </AggregationCache>
 
   <!--
