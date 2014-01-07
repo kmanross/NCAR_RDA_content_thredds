@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<catalog name="ds601.0 Catalog"
+<catalog name="THREDDS Server Default Catalog : You must change this to fit your server!"
         xmlns="http://www.unidata.ucar.edu/namespaces/thredds/InvCatalog/v1.0"
         xmlns:xlink="http://www.w3.org/1999/xlink">
 
@@ -19,28 +19,56 @@
   </service>
 
 
-    <dataset name="ds601.0-Agg">
-         <metadata inherited="true">
+    <!-- Top level dataset: Needed to set metadata for Files & Aggregations -->
+
+    <dataset name="ds601.0">
+        <metadata inherited="true">
+            <serviceName>all</serviceName>
           <dataFormat>NetCDF</dataFormat>
           <dataType>GRID</dataType>
           <documentation type="Rights">Freely Available</documentation>
-          <documentation xlink:href="http://rda.ucar.edu/datasets/ds601.0/index.html" xlink:title="NCAR Nested Regional Climate Model (NRCM) (ds601.0)" />
+          <documentation xlink:href="http://rda.ucar.edu/datasets/ds601.0/index.html" xlink:title="NCAR RDA - NCAR Nested Regional Climate Model (NRCM) (ds601.0)" />
           <documentation type="summary">
 This dataset contains climate model output data from the NCAR's Nested Regional Climate Model (NRCM). The NRCM combines the strengths of NCAR's Weather Research and Forecasting (WRF) model and NCAR's Community Climate System Model (CCSM) into an instrument that will allow for fundamental progress on the understanding and prediction of regional climate variability and change. In particular, embedding WRF within CCSM will allow scientists to resolve processes that occur at the regional scale, as well as the influence of those processes on the large-scale climate, thereby improving the fidelity of climate change simulations and their utility for local and regional planning.
 The output fields in this dataset consist of two- and three-dimensional arrays at three- and six-hourly intervals. A basic set of 3-D parameters is provided on model pressure levels: relative humidity, temperature, wind components, geopotential height, and potential vorticity. Additional 2-D parameters are provided at the model surface or near-surface level, and potential vorticity arrays are also provided on the 320 K and 345 K isentropic surfaces.
 
 Data are available as monthly time series files in NetCDF. The data currently provided are from the climate runs with regional model domain over the North Atlantic Ocean and USA. The simulation covers the periods 1995-2005, 2020-2030, and 2045-2055.
           </documentation>
+          <documentation xlink:href="http://www.nrcm.ucar.edu/" xlink:title="NCAR Nested Regional Climate Model" />
           <creator>
             <name vocabulary="DIF">UCAR/NCAR/MMM</name>
-            <contact url="http://www.nrcm.ucar.edu/" email="gholland(at)ucar.edu" />
+            <contact url="http://www.nrcm.ucar.edu/" email="gholland@ucar.edu" />
           </creator>
+          <authority>edu.ucar.rda</authority>   
+          <publisher>   
+            <name vocabulary="DIF">NCAR/RDA</name>   
+            <contact url="http://rda.ucar.edu/" email="dssweb@ucar.edu" />   
+          </publisher>   
           <keywords>Numerical Weather Prediction</keywords>
           <keywords>Climate</keywords>
           <keywords>Regional Climate Model</keywords>
-         </metadata>
 
-       <dataset name="Full Aggregation of ds601.0"
+
+        </metadata>
+
+
+      <!--  Files -->
+
+     <datasetScan name="ds601.0 Files" 
+                  path="files/ds601.0" 
+                  location="/glade/p/rda/data/ds601.0">
+         <metadata inherited="true">
+         <serviceName>all</serviceName>
+         </metadata>
+         <filter>
+             <exclude wildcard="*.html"/>
+         </filter>
+         <addDatasetSize/>
+     </datasetScan>
+
+     <!-- Aggregations -->
+
+       <dataset name="ds601.0 Aggregation"
          ID="ds601.0-AGG"
          urlPath="aggregations/ds601.0/10/best"
          harvest="true">

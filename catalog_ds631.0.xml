@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<catalog name="ds631.0 Catalog"
+<catalog name="THREDDS Server Default Catalog : You must change this to fit your server!"
         xmlns="http://www.unidata.ucar.edu/namespaces/thredds/InvCatalog/v1.0"
         xmlns:xlink="http://www.w3.org/1999/xlink">
 
@@ -18,174 +18,224 @@
     <service name="uddc" serviceType="UDDC" base="/thredds/uddc/"/>
   </service>
 
-<!--
-  <dataset name="Invariant variables for ASR 30 km products"
-           ID="ds631.0_invariant-AGG"
-           urlPath="aggregations/ds631.0/3/best"
-           harvest="true">
-     <serviceName>all</serviceName>
-     <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
-       <aggregation dimName="time" type="joinExisting">
-         <scan location="/glade/p/rda/data/ds631.0/asr30km.invariant/" suffix=".nc" subdirs="false"/>
-       </aggregation>
-     </netcdf>
+
+    <!-- Top level dataset: Needed to set metadata for Files & Aggregations -->
+
+    <dataset name="ds631.0">
+        <metadata inherited="true">
+            <serviceName>all</serviceName>
+          <dataFormat>NetCDF</dataFormat>  
+          <dataType>GRID</dataType>   
+          <documentation type="Rights">Freely Available</documentation>   
+          <documentation xlink:href="http://rda.ucar.edu/datasets/ds631.0/" 
+                         xlink:title="NCAR RDA - NCEP FNL Operational Model Global Tropospheric Analyses (ds631.0)"/>   
+          <documentation type="summary">   
+The Arctic System Reanalysis (ASR) is produced using a high-resolution version of the Polar Weather Forecast Model (PWRF) and the WRF-VAR and High Resolution Land Data Assimilation (HRLDAS) systems that have been optimized for the Arctic. A low-resolution (30km) data set which spans 2000-2010 was released in May 2012 and is available through the NCAR CISL RDA. There are 17 surface and 7 upper air analysis variables, 69 surface and 13 upper air forecast variables, and 3 soil variables. The final products will span 2000-2011 and will be at 10km resolution.
+          </documentation> 
+          <documentation xlink:href="http://polarmet.osu.edu/ASR/" xlink:title="The Arctic System Reanalysis (ASR)" />   
+          <creator>   
+            <name vocabulary="DIF">OH-STATE/BPRC</name>   
+            <contact url="http://polarmet.osu.edu/ASR/" email="bromwich.1@osu.edu" />   
+          </creator>   
+          <authority>edu.ucar.rda</authority>   
+          <publisher>   
+            <name vocabulary="DIF">NCAR/RDA</name>   
+            <contact url="http://rda.ucar.edu/" email="dssweb@ucar.edu" />   
+          </publisher>   
+          <keywords>Numerical Weather Prediction</keywords>   
+          <keywords>NCEP</keywords>   
+          <keywords>Model data</keywords>   
+
+
+        </metadata>
+
+
+      <!--  Files -->
+
+     <datasetScan name="ds631.0 Files" 
+                  path="files/ds631.0" 
+                  location="/data/glade/p/rda/data/ds631.0">
+         <metadata inherited="true">
+             <serviceName>all</serviceName>
+         </metadata>
+         <filter>
+             <exclude wildcard="*.html"/>
+         </filter>
+         <addDatasetSize/>
+     </datasetScan>
+
+     <!-- Aggregations -->
+     <dataset name="ds631.0 Aggregations">
+
+         <dataset name="ASR 30 km 3d pressure level analysis"
+                  ID="ds631.0_anl_3d-AGG"
+                  urlPath="aggregations/ds631.0/6/best"
+                  harvest="true">
+             <metadata inherited="true">
+                 <serviceName>all</serviceName>
+             </metadata>
+            <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+              <aggregation dimName="time" type="joinExisting">
+                <scan location="/glade/p/rda/data/ds631.0/asr30km.anl.3D/" suffix=".nc" subdirs="false"/>
+              </aggregation>
+              <variable name="PRES" shape="num_metgrid_levels" type="float">
+                <attribute name="units" value="Pa" />
+                <attribute name="long_name" value="Isobaric levels" />
+                <attribute name="positive" value="down" />
+                <attribute name="_CoordinateAxisType" value="Pressure" />
+                <attribute name="_CoordinateAliasForDimension" value="num_metgrid_levels" />
+                <attribute name="_CoordinateZisPositive" value="down" />
+              </variable>
+            </netcdf>
+          </dataset>
+       
+         <dataset name="ASR 30 km 2d surface analysis"
+                  ID="ds631.0_anl_2d-AGG"
+                  urlPath="aggregations/ds631.0/9/best"
+                  harvest="true">
+             <metadata inherited="true">
+                 <serviceName>all</serviceName>
+             </metadata>
+            <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+              <aggregation dimName="time" type="joinExisting">
+                <scan location="/glade/p/rda/data/ds631.0/asr30km.anl.2d/" suffix=".nc" subdirs="false"/>
+              </aggregation>
+              <variable name="ZS" shape="soil_layers_stag" type="float">
+                <attribute name="units" value="m" />
+                <attribute name="long_name" value="DEPTHS OF CENTERS OF SOIL LAYERS" />
+                <attribute name="positive" value="down" />
+                <attribute name="_CoordinateAxisType" value="GeoZ" />
+                <attribute name="_CoordinateAliasForDimension" value="soil_layers_stag" />
+                <attribute name="_CoordinateZisPositive" value="down" />
+              </variable>
+       
+            </netcdf>
+          </dataset>
+       
+         <dataset name="ASR 30 km 3d pressure level forecast"
+                  ID="ds631.0_fcst_3d-AGG"
+                  urlPath="aggregations/ds631.0/14/best"
+                  harvest="true">
+             <metadata inherited="true">
+                 <serviceName>all</serviceName>
+             </metadata>
+            <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+              <aggregation dimName="time" type="joinExisting">
+                <scan location="/glade/p/rda/data/ds631.0/asr30km.fcst3.3D/" suffix=".nc" subdirs="false"/>
+              </aggregation>
+              <variable name="PRES" shape="num_metgrid_levels" type="float">
+                <attribute name="units" value="Pa" />
+                <attribute name="long_name" value="Isobaric levels" />
+                <attribute name="positive" value="down" />
+                <attribute name="_CoordinateAxisType" value="Pressure" />
+                <attribute name="_CoordinateAliasForDimension" value="num_metgrid_levels" />
+                <attribute name="_CoordinateZisPositive" value="down" />
+              </variable>
+            </netcdf>
+          </dataset>
+       
+         <dataset name="ASR 30 km 2d surface forecast"
+                  ID="ds631.0_fcst_2d-AGG"
+                  urlPath="aggregations/ds631.0/15/best"
+                  harvest="true">
+             <metadata inherited="true">
+                 <serviceName>all</serviceName>
+             </metadata>
+            <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+              <aggregation dimName="time" type="joinExisting">
+                <scan location="/glade/p/rda/data/ds631.0/asr30km.fcst3.2d/" suffix=".nc" subdirs="false"/>
+              </aggregation>
+              <variable name="ZS" shape="soil_layers_stag" type="float">
+                <attribute name="units" value="m" />
+                <attribute name="long_name" value="DEPTHS OF CENTERS OF SOIL LAYERS" />
+                <attribute name="positive" value="down" />
+                <attribute name="_CoordinateAxisType" value="GeoZ" />
+                <attribute name="_CoordinateAliasForDimension" value="soil_layers_stag" />
+                <attribute name="_CoordinateZisPositive" value="down" />
+              </variable>
+            </netcdf>
+          </dataset>
+       
+         <dataset name="ASR 30km monthly means of analysis products"
+                  ID="ds631.0_anl_monthly-AGG"
+                  urlPath="aggregations/ds631.0/21/best"
+                  harvest="true">
+             <metadata inherited="true">
+                 <serviceName>all</serviceName>
+             </metadata>
+            <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+             <aggregation type="Union">
+             <netcdf>
+              <aggregation dimName="time" type="joinExisting">
+                <scan location="/glade/p/rda/data/ds631.0/asr30km.anl.monthly/" regExp="ASR30km\.anl\.2d\.mon\.[0-9]+.nc" subdirs="false"/>
+              </aggregation>
+              <variable name="ZS" shape="soil_layers_stag" type="float">
+                <attribute name="units" value="m" />
+                <attribute name="long_name" value="DEPTHS OF CENTERS OF SOIL LAYERS" />
+                <attribute name="positive" value="down" />
+                <attribute name="_CoordinateAxisType" value="GeoZ" />
+                <attribute name="_CoordinateAliasForDimension" value="soil_layers_stag" />
+                <attribute name="_CoordinateZisPositive" value="down" />
+              </variable>
+             </netcdf>
+             <netcdf>
+              <aggregation dimName="time" type="joinExisting">
+                <scan location="/glade/p/rda/data/ds631.0/asr30km.anl.monthly/" regExp="ASR30km\.anl\.3D\.mon\.[0-9]+.nc" subdirs="false"/>
+              </aggregation>
+              <variable name="PRES" shape="num_metgrid_levels" type="float">
+                <attribute name="units" value="Pa" />
+                <attribute name="long_name" value="Isobaric levels" />
+                <attribute name="positive" value="down" />
+                <attribute name="_CoordinateAxisType" value="Pressure" />
+                <attribute name="_CoordinateAliasForDimension" value="num_metgrid_levels" />
+                <attribute name="_CoordinateZisPositive" value="down" />
+              </variable>
+             </netcdf>
+            </aggregation>
+           </netcdf>
+          </dataset>
+       
+         <dataset name="ASR 30km monthly means of forecast products"
+                  ID="ds631.0_fcst_monthly-AGG"
+                  urlPath="aggregations/ds631.0/22/best"
+                  harvest="true">
+             <metadata inherited="true">
+                 <serviceName>all</serviceName>
+             </metadata>
+            <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+             <aggregation type="Union">
+             <netcdf>
+              <aggregation dimName="time" type="joinExisting">
+                <scan location="/glade/p/rda/data/ds631.0/asr30km.fcst3.monthly/" regExp="ASR30km\.fcst3\.2d\.mon\.[0-9]+.nc" subdirs="false"/>
+              </aggregation>
+              <variable name="ZS" shape="soil_layers_stag" type="float">
+                <attribute name="units" value="m" />
+                <attribute name="long_name" value="DEPTHS OF CENTERS OF SOIL LAYERS" />
+                <attribute name="positive" value="down" />
+                <attribute name="_CoordinateAxisType" value="GeoZ" />
+                <attribute name="_CoordinateAliasForDimension" value="soil_layers_stag" />
+                <attribute name="_CoordinateZisPositive" value="down" />
+              </variable>
+             </netcdf>
+             <netcdf>
+              <aggregation dimName="time" type="joinExisting">
+                <scan location="/glade/p/rda/data/ds631.0/asr30km.fcst3.monthly/" regExp="ASR30km\.fcst3\.3D\.mon\.[0-9]+.nc" subdirs="false"/>
+              </aggregation>
+              <variable name="PRES" shape="num_metgrid_levels" type="float">
+                <attribute name="units" value="Pa" />
+                <attribute name="long_name" value="Isobaric levels" />
+                <attribute name="positive" value="down" />
+                <attribute name="_CoordinateAxisType" value="Pressure" />
+                <attribute name="_CoordinateAliasForDimension" value="num_metgrid_levels" />
+                <attribute name="_CoordinateZisPositive" value="down" />
+              </variable>
+             </netcdf>
+            </aggregation>
+       
+            </netcdf>
+          </dataset>
+       
+       </dataset>
    </dataset>
--->
-  <dataset name="ASR 30 km 3d pressure level analysis"
-           ID="ds631.0_anl_3d-AGG"
-           urlPath="aggregations/ds631.0/6/best"
-           harvest="true">
-     <serviceName>all</serviceName>
-     <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
-       <aggregation dimName="time" type="joinExisting">
-         <scan location="/glade/p/rda/data/ds631.0/asr30km.anl.3D/" suffix=".nc" subdirs="false"/>
-       </aggregation>
-       <variable name="PRES" shape="num_metgrid_levels" type="float">
-         <attribute name="units" value="Pa" />
-         <attribute name="long_name" value="Isobaric levels" />
-         <attribute name="positive" value="down" />
-         <attribute name="_CoordinateAxisType" value="Pressure" />
-         <attribute name="_CoordinateAliasForDimension" value="num_metgrid_levels" />
-         <attribute name="_CoordinateZisPositive" value="down" />
-       </variable>
-     </netcdf>
-   </dataset>
-
-  <dataset name="ASR 30 km 2d surface analysis"
-           ID="ds631.0_anl_2d-AGG"
-           urlPath="aggregations/ds631.0/9/best"
-           harvest="true">
-     <serviceName>all</serviceName>
-     <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
-       <aggregation dimName="time" type="joinExisting">
-         <scan location="/glade/p/rda/data/ds631.0/asr30km.anl.2d/" suffix=".nc" subdirs="false"/>
-       </aggregation>
-       <variable name="ZS" shape="soil_layers_stag" type="float">
-         <attribute name="units" value="m" />
-         <attribute name="long_name" value="DEPTHS OF CENTERS OF SOIL LAYERS" />
-         <attribute name="positive" value="down" />
-         <attribute name="_CoordinateAxisType" value="GeoZ" />
-         <attribute name="_CoordinateAliasForDimension" value="soil_layers_stag" />
-         <attribute name="_CoordinateZisPositive" value="down" />
-       </variable>
-
-     </netcdf>
-   </dataset>
-
-  <dataset name="ASR 30 km 3d pressure level forecast"
-           ID="ds631.0_fcst_3d-AGG"
-           urlPath="aggregations/ds631.0/14/best"
-           harvest="true">
-     <serviceName>all</serviceName>
-     <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
-       <aggregation dimName="time" type="joinExisting">
-         <scan location="/glade/p/rda/data/ds631.0/asr30km.fcst3.3D/" suffix=".nc" subdirs="false"/>
-       </aggregation>
-       <variable name="PRES" shape="num_metgrid_levels" type="float">
-         <attribute name="units" value="Pa" />
-         <attribute name="long_name" value="Isobaric levels" />
-         <attribute name="positive" value="down" />
-         <attribute name="_CoordinateAxisType" value="Pressure" />
-         <attribute name="_CoordinateAliasForDimension" value="num_metgrid_levels" />
-         <attribute name="_CoordinateZisPositive" value="down" />
-       </variable>
-     </netcdf>
-   </dataset>
-
-  <dataset name="ASR 30 km 2d surface forecast"
-           ID="ds631.0_fcst_2d-AGG"
-           urlPath="aggregations/ds631.0/15/best"
-           harvest="true">
-     <serviceName>all</serviceName>
-     <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
-       <aggregation dimName="time" type="joinExisting">
-         <scan location="/glade/p/rda/data/ds631.0/asr30km.fcst3.2d/" suffix=".nc" subdirs="false"/>
-       </aggregation>
-       <variable name="ZS" shape="soil_layers_stag" type="float">
-         <attribute name="units" value="m" />
-         <attribute name="long_name" value="DEPTHS OF CENTERS OF SOIL LAYERS" />
-         <attribute name="positive" value="down" />
-         <attribute name="_CoordinateAxisType" value="GeoZ" />
-         <attribute name="_CoordinateAliasForDimension" value="soil_layers_stag" />
-         <attribute name="_CoordinateZisPositive" value="down" />
-       </variable>
-     </netcdf>
-   </dataset>
-
-  <dataset name="ASR 30km monthly means of analysis products"
-           ID="ds631.0_anl_monthly-AGG"
-           urlPath="aggregations/ds631.0/21/best"
-           harvest="true">
-     <serviceName>all</serviceName>
-     <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
-      <aggregation type="Union">
-      <netcdf>
-       <aggregation dimName="time" type="joinExisting">
-         <scan location="/glade/p/rda/data/ds631.0/asr30km.anl.monthly/" regExp="ASR30km\.anl\.2d\.mon\.[0-9]+.nc" subdirs="false"/>
-       </aggregation>
-       <variable name="ZS" shape="soil_layers_stag" type="float">
-         <attribute name="units" value="m" />
-         <attribute name="long_name" value="DEPTHS OF CENTERS OF SOIL LAYERS" />
-         <attribute name="positive" value="down" />
-         <attribute name="_CoordinateAxisType" value="GeoZ" />
-         <attribute name="_CoordinateAliasForDimension" value="soil_layers_stag" />
-         <attribute name="_CoordinateZisPositive" value="down" />
-       </variable>
-      </netcdf>
-      <netcdf>
-       <aggregation dimName="time" type="joinExisting">
-         <scan location="/glade/p/rda/data/ds631.0/asr30km.anl.monthly/" regExp="ASR30km\.anl\.3D\.mon\.[0-9]+.nc" subdirs="false"/>
-       </aggregation>
-       <variable name="PRES" shape="num_metgrid_levels" type="float">
-         <attribute name="units" value="Pa" />
-         <attribute name="long_name" value="Isobaric levels" />
-         <attribute name="positive" value="down" />
-         <attribute name="_CoordinateAxisType" value="Pressure" />
-         <attribute name="_CoordinateAliasForDimension" value="num_metgrid_levels" />
-         <attribute name="_CoordinateZisPositive" value="down" />
-       </variable>
-      </netcdf>
-     </aggregation>
-    </netcdf>
-   </dataset>
-
-  <dataset name="ASR 30km monthly means of forecast products"
-           ID="ds631.0_fcst_monthly-AGG"
-           urlPath="aggregations/ds631.0/22/best"
-           harvest="true">
-     <serviceName>all</serviceName>
-     <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
-      <aggregation type="Union">
-      <netcdf>
-       <aggregation dimName="time" type="joinExisting">
-         <scan location="/glade/p/rda/data/ds631.0/asr30km.fcst3.monthly/" regExp="ASR30km\.fcst3\.2d\.mon\.[0-9]+.nc" subdirs="false"/>
-       </aggregation>
-       <variable name="ZS" shape="soil_layers_stag" type="float">
-         <attribute name="units" value="m" />
-         <attribute name="long_name" value="DEPTHS OF CENTERS OF SOIL LAYERS" />
-         <attribute name="positive" value="down" />
-         <attribute name="_CoordinateAxisType" value="GeoZ" />
-         <attribute name="_CoordinateAliasForDimension" value="soil_layers_stag" />
-         <attribute name="_CoordinateZisPositive" value="down" />
-       </variable>
-      </netcdf>
-      <netcdf>
-       <aggregation dimName="time" type="joinExisting">
-         <scan location="/glade/p/rda/data/ds631.0/asr30km.fcst3.monthly/" regExp="ASR30km\.fcst3\.3D\.mon\.[0-9]+.nc" subdirs="false"/>
-       </aggregation>
-       <variable name="PRES" shape="num_metgrid_levels" type="float">
-         <attribute name="units" value="Pa" />
-         <attribute name="long_name" value="Isobaric levels" />
-         <attribute name="positive" value="down" />
-         <attribute name="_CoordinateAxisType" value="Pressure" />
-         <attribute name="_CoordinateAliasForDimension" value="num_metgrid_levels" />
-         <attribute name="_CoordinateZisPositive" value="down" />
-       </variable>
-      </netcdf>
-     </aggregation>
-
-     </netcdf>
-   </dataset>
-
 
 </catalog>
