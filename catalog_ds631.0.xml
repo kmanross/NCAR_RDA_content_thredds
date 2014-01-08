@@ -28,7 +28,7 @@
           <dataType>GRID</dataType>   
           <documentation type="Rights">Freely Available</documentation>   
           <documentation xlink:href="http://rda.ucar.edu/datasets/ds631.0/" 
-                         xlink:title="NCAR RDA - NCEP FNL Operational Model Global Tropospheric Analyses (ds631.0)"/>   
+                         xlink:title="NCAR RDA - Arctic System Reanalysis (ASR) Project (ds631.0)"/>   
           <documentation type="summary">   
 The Arctic System Reanalysis (ASR) is produced using a high-resolution version of the Polar Weather Forecast Model (PWRF) and the WRF-VAR and High Resolution Land Data Assimilation (HRLDAS) systems that have been optimized for the Arctic. A low-resolution (30km) data set which spans 2000-2010 was released in May 2012 and is available through the NCAR CISL RDA. There are 17 surface and 7 upper air analysis variables, 69 surface and 13 upper air forecast variables, and 3 soil variables. The final products will span 2000-2011 and will be at 10km resolution.
           </documentation> 

@@ -24,7 +24,7 @@
           <dataType>GRID</dataType>
           <documentation type="Rights">Freely Available</documentation>
           <documentation xlink:href="http://rda.ucar.edu/datasets/ds316.0/" 
-                         xlink:title="NCAR RDA - NCEP FNL Operational Model Global Tropospheric Analyses (ds316.0)"/>
+                         xlink:title="NCAR RDA - NCAR Community Earth System Model, EaSM Project Dataset (ds316.0)"/>
           <documentation type="summary">
 This dataset includes climate model output data from NCAR's Community Earth System Model (CESM) CMIP-5 runs, with output fields for the 3-D global atmosphere at six hourly intervals. A basic set of parameters is provided on 26 model hybrid level surfaces: specific humidity, temperature, wind components, and geopotential height to support regional modeling studies. Additional parameters are provided on single level grids to support analysis studies including surface temperature. Data are available in yearly time-series parameter archive files, and monthly synoptic time archive files. An interface is provided to give users the option to select parameter, temporal, and spatial subsets from the monthly synoptic time archive files. The data are a single 20th Century (1950-2005) simulation and three concomitant Representative Concentration Pathway (RCP) future scenarios spanning 2005-2100. These computer runs were completed in 2011.
           </documentation>

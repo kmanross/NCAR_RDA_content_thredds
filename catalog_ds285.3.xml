@@ -28,7 +28,7 @@
           <dataType>GRID</dataType>   
           <documentation type="Rights">Freely Available</documentation>   
           <documentation xlink:href="http://rda.ucar.edu/datasets/ds285.3/" 
-                         xlink:title="NCAR RDA - NCEP FNL Operational Model Global Tropospheric Analyses (ds285.3)"/>   
+                         xlink:title="NCAR RDA - Subsurface Temperature And Salinity Analyses by Ishii et al. (ds285.3)"/>   
           <documentation type="summary">  
 Monthly objectively analyzed subsurface temperature and Salinity at 16 levels in the upper 700m started from 1945 and prepared by M. Ishii et al.
 The analysis is based on the World Ocean Database/Atlas 2005 WOD05/WOA05, ( ds285.0), the Global Temperature-Salinitiy in the tropical pacific from IRD (L'institut de recherche pour le developement, France, ds279.1), and the Centennial in situ Observation Based Estimates (COBE) sea surface temperature. ARGO profiling buoy data have also been used in the final several years. The XBT depth bias correction is applied in the current version. 
