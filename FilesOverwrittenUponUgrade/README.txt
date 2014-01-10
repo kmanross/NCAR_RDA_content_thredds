@@ -35,6 +35,23 @@ RDA_RealmSourceCode/
    Place in $CATALINA_HOME/lib/
 
 
+grib-4.3.18_YOTCTendencies.jar
+
+   The TDS grib jar file containing grib table definitions fails to include 
+   "tendency" parameters found in RDA ds629.x See:
+   http://rda.ucar.edu/metadata/ParameterTables/WMO_GRIB1.98-0.162.xml
+   for parameters that are needed for ds629.x.
+
+   The included grib table jar file contains these parameter definitions.
+   This file should be placed in
+
+   webapps/thredds/WEB-INF/lib/ 
+
+   and probably needs to be renamed (or soft linked) to match the version
+   number of the current TDS installation.
+
+   Restart the TDS after making this change.
+
 IMPORTANT!
 
    Upon thredds.war deployment (new/upgrade), Steps should be:
